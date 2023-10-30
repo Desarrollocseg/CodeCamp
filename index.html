@@ -21,20 +21,21 @@
    <a/> 
     
     
+<hr>
 
     <h3>Lista de Gatos</h3>
     
-    <p>Cosas que los gatos aman:</p>
+    <p>Cosas que los gatos <em>aman</em>:</p>
     <ul>
      <li>Menta gatuna</li>
      <li>Apuntadores láser</li>
-     <li>Lasaña</li>
+     <li><s>Lasaña</s></li>
     </ul>
     
     <img src="l.jpg"
       alt="lasagna">
       
-      <p>Cosas que los gatos <strong>odian:</strong></p>
+      <p>Cosas que los gatos <strong>odian</strong>:</p>
       
      <ol>
       <li>Tratamientos antipulgas</li>
@@ -60,6 +61,33 @@
        
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consi
       equat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      
+      <form action="/enviar-respuesta"required>
+      
+      <!--boton radio-->
+      <label for="interior"><input id="interior" type="radio"name="interior-exterior">Interior</label>
+     <br>
+      
+     <label for="exterior"> <input id="exterior" type="radio"name="interior-exterior">exterior</label>
+    
+     <br>
+     <!--casillas de verificación-->
+    <label for="cariñoso"> <input id="cariñoso" type="checkbox"name="personalidad">Cariñoso</label>
+     <br>
+    <label for="perezoso"> <input id="perezoso" type="checkbox"name="personalidad">Perezoso</label>
+     <br>
+     <label for="Energico"><input id="Enérgico" type="checkbox"name="personalidad">Energico</label>
+     <br>
+     
+     
+      <!--texto y boton enviar-->
+        <input type="text"placeholder="url de la foto de tu gato">
+     <br>
+        
+        <button type="submit">enviar
+        </button>
+      </form>
+      
       
      </main>
      
