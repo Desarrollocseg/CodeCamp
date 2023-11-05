@@ -8,10 +8,13 @@ body {
 
 header {
     background-color: #ff42a5f5;
-    font-color: #fff5f5f5
+    
     font-size: 36px;
     text-align: center;
     padding: 20px;
+}
+header h1 {
+    font-color: #fff5f5f5
 }
 
 /* Estilos para el logotipo */
