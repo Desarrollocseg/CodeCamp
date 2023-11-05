@@ -3,12 +3,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: gray;
+    background-color: #fffafafa;
 }
 
 header {
-    background-color: blue;
-    
+    background-color: #ff42a5f5;
+    font-color: #fff5f5f5
+    font-size: 36px;
     text-align: center;
     padding: 20px;
 }
@@ -40,7 +41,7 @@ section {
 
 /* Estilos específicos */
 h1 {
-    color: black;
+    
     font-size: 36px;
 }
 
