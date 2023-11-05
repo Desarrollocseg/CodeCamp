@@ -3,12 +3,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #ff0277bd;
 }
 
 header {
     background-color:#ff8bc34a;
-    color: #ff4caf50;
+    color: #ffd84315;
     text-align: center;
     padding: 20px;
 }
@@ -28,7 +28,7 @@ nav ul {
 }
 
 nav a {
-    color: #ff78909c;
+    color: #fffafafa;
     text-decoration: none;
 }
 
