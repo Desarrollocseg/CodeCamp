@@ -7,8 +7,8 @@ body {
 }
 
 header {
-    background-color: green;
-    color: #fff;
+    background-color:#ff8bc34a;
+    color: #ff4caf50;
     text-align: center;
     padding: 20px;
 }
@@ -28,7 +28,7 @@ nav ul {
 }
 
 nav a {
-    color: #fff;
+    color: #ff78909c;
     text-decoration: none;
 }
 

@@ -1,5 +1,9 @@
-p {
+li {
+    color: blue;
+    font-size: 20px;
     
-    color:#ff9c27b0
-    
+}
+
+h2{
+    font-family: verdana;
 }
