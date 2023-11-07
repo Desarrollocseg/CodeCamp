@@ -19,6 +19,13 @@ h3 {
 
 }
 
+#titulo-app-gatos { 
+      
+      font-size: 30px;
+      color:green;
+      font-family:font-family: 'Playpen Sans', cursive;
+}
+
 .imagen-de-gato {
     
     whidth: 300px;
@@ -37,3 +44,4 @@ h3 {
     
     background-color: silver;
 }
+
