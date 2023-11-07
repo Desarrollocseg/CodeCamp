@@ -10,7 +10,14 @@ h2 {
 }
 
 h3 { 
-font-family: 'Josefin Sans', sans-serif;
-font-family: 'Playpen Sans', cursive;
+    font-family: 'Josefin Sans',     sans-serif;
+    font-family: 'Playpen Sans', cursive;
 
+}
+
+img {
+    whidth:200px;
+}
+.imagen-de-gatos{
+    whidth: 300px
 }
