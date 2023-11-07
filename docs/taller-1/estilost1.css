@@ -20,9 +20,20 @@ h3 {
 }
 
 .imagen-de-gato {
+    
     whidth: 300px;
     border-width: 10px;
     border-color: blue;
-    border-style: solid;
+    border-style: solid dashed dotted double;
     
+}
+
+.bordes-redondeados {
+    
+    border-radius: 50%;
+}
+
+.contenedor-listas {
+    
+    background-color: silver;
 }
