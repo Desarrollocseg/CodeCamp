@@ -1,5 +1,6 @@
 main{
-    background-color:gray;
+    
+    background-color: gray;
 }
 li {
     color: blue;
@@ -18,10 +19,7 @@ h3 {
 
 }
 
-img {
-    whidth:200px;
-}
-.imagen-de-gatos{
+.imagen-de-gatos {
     whidth: 300px;
     border-width: 5px;
     border-color: blue;
