@@ -4,7 +4,13 @@ li {
     
 }
 
-h2{
+h2 {
     font-family: 'Playpen Sans', cursive;
     font-size:50px;
+}
+
+h3 { 
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Playpen Sans', cursive;
+
 }
