@@ -9,11 +9,15 @@ li {
 }
 
 h2 {
-    font-family: 'Playpen Sans', cursive;
+    
     font-size:30px;
+    font-family: 'Playpen Sans', cursive;
+    
+    
 }
 
 h3 { 
+
     font-family: 'Josefin Sans',     sans-serif;
     font-family: 'Playpen Sans', cursive;
 
@@ -24,6 +28,7 @@ h3 {
       font-size: 50px;
       color:green;
       font-family:font-family: 'Playpen Sans', cursive;
+      
 }
 
 .imagen-de-gato {
