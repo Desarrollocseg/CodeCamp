@@ -1,14 +1,19 @@
 body {
-    background:#e8e8e8;
+    background: #e8e8e8;
+}
+
+img {
+    width:90%;
+    max-width:100%;
 }
 
 .menu {
     list-style:none;
     padding:0;
-    backgrund; #092327;
+    backgroundund; #092327;
     width:90%;
     max-width:100%;
-    margin:auto
+    margin:auto;
 }
 
 .menu li a {
@@ -25,5 +30,5 @@ body {
 }
 
 .menu li a:hover{
-    background: #ef8354
+    background: #ef8354;
 }
