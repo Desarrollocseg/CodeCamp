@@ -33,7 +33,7 @@ h3 {
 
 .imagen-de-gato {
     
-    whidth: 300px;
+    width: 300px;
     border-width: 10px;
     border-color: blue;
     border-style: solid dashed dotted double;
