@@ -6,11 +6,11 @@ body {
 }
 
 .text-effect:hover{
-    color: #ff69b4;
+    color: #ff69b5;
 }
 
 img {
-    width:90%;
+    width:100%;
     max-width:100%;
 }
 
