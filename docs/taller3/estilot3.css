@@ -1,6 +1,13 @@
 body {
     background: #125358;
 }
+.text-effect{
+    transition: color 0.3s ease-in-out;
+}
+
+.text-effect:hover{
+    color: #ff69b4;
+}
 
 img {
     width:90%;
