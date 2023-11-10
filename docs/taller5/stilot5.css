@@ -33,7 +33,9 @@
  }
  
  #buscador {
-     
+     widht: 250px;
+     height: 125px;
+     background: #40DA13;
  }
  
  nav{
