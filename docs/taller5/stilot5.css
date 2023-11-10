@@ -57,6 +57,11 @@
      
  }
  
+ article{
+     width: 500px;
+     background: #F48A0C;
+ }
+ 
  #lado_derecho {
      height: 400px;
      width: 150px;
