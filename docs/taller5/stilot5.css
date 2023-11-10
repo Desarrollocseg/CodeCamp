@@ -58,8 +58,10 @@
  }
  
  article{
+     height: 400px
      width: 500px;
      background: #F48A0C;
+     float: right;
  }
  
  #lado_derecho {
