@@ -1,0 +1,35 @@
+header{ 
+    height: 10%;
+    background-color: lightblue;
+}
+
+nav{
+    height: 5%;
+    background-color: lightgray; 
+    
+}
+#principal{
+    display: flex;
+    align-items: stretch;
+   
+}
+
+article{
+    width: 80%;
+    background-color: lemonchiffon;
+    min-height: 80%;
+       
+}
+
+aside{
+    width: 20%;
+    background-color: lightsalmoon;
+    min-height: 80%;
+    
+}
+
+footer{
+    background-color: lightgreen;
+    height: 5%;
+    
+}
