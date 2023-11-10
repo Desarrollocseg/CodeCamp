@@ -19,12 +19,14 @@
      widht: 750px;
      background: red;
  }
+ 
  #banner {
      height: 250px;
      widht: 700px;
      background: white;
      float: right;
  }
+ 
  #logo {
      widht: 250px;
      height: 125px;
