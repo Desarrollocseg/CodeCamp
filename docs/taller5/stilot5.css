@@ -50,6 +50,13 @@
      background: pink;
  }
  
+ #lado_izquierdo{
+     height: 400px;
+     width: 150px;
+     background: #EDE313;
+     
+ }
+ 
  footer{
      height: 50px;
      background: orange;
