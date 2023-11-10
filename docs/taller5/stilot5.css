@@ -52,6 +52,21 @@
      height: 50px;
      background: blue;
  }
+ nav ul {
+     
+     list-style: none;
+ }
+ nav a {
+     color: #0c0c0c0;
+     text-decoration: none;
+     padding: 20px;
+     font-family: Broadway
+     
+ }
+ nav ul li{
+     float: left;
+     
+ }
  
  main{
      height: 400px;
