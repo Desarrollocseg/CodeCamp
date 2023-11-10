@@ -44,7 +44,10 @@
      height: 125px;
      background: #40DA13;
  }
- 
+ # buscador img{
+     width="250px" ;
+     height="125px;
+ }
  nav{
      height: 50px;
      background: blue;
@@ -58,7 +61,7 @@
  
  #lado_izquierdo {
      height: 400px;
-     width: 150px;
+     width: 200px;
      background: #EDE313;
      float: left
      
@@ -66,15 +69,15 @@
  
  article{
      height: 400px
-     width: 500px;
-     background: #F48A0C;
+     width: 350px;
+     background: white;
      float: left;
  }
  #lado_derecho {
      height: 400px;
-     width: 100px;
+     width: 200px;
      background: #EDE313;
-     float: left;
+     float: right;
  
  
  footer{
