@@ -3,7 +3,7 @@
      margin: 0px;
  }
  html {
-     background: ##c0c0c0;
+     background: #c0c0c0;
      
  }
  
@@ -28,8 +28,8 @@
  }
  
  #logo {
-     widht: 250px;
      height: 125px;
+     widht: 250px;
      background: #13DACB;
      
  }
