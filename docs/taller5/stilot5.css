@@ -1,0 +1,49 @@
+ *{
+     padding: 0px;
+     margin: 0px;
+ }
+ html {
+     background: ##c0c0c0;
+     
+ }
+ 
+ body{
+     height: 750px;
+     widht: 750px;
+     background: orange;
+     margin: auto;
+ }
+ 
+ header{
+     height: 250px;
+     widht: 750px;
+     background: red;
+ }
+ #banner {
+     height: 250px;
+     widht: 700px;
+     background: #000
+     float: right:
+ }
+ #logo {
+     
+ }
+ 
+ #buscador {
+     
+ }
+ 
+ nav{
+     height: 50px;
+     background: blue;
+ }
+ 
+ main{
+     height: 400px;
+     background: pink;
+ }
+ 
+ footer{
+     height: 50px;
+     background: orange;
+ }
