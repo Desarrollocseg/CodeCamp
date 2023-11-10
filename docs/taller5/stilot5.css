@@ -50,11 +50,18 @@
      background: pink;
  }
  
- #lado_izquierdo{
+ #lado_izquierdo {
      height: 400px;
      width: 150px;
      background: #EDE313;
      
+ }
+ 
+ #lado_derecho {
+     height: 400px;
+     width: 150px;
+     background: #EDE313;
+     float: right;
  }
  
  footer{
