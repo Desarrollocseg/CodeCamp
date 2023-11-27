@@ -41,7 +41,7 @@ section {
     display: grid;
     grid-gap: 20px;
 }
-#section blog{
+#blog{
     background-color:blue;
 }
 
