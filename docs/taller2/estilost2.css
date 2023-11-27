@@ -7,11 +7,14 @@ body {
 }
 
 header {
-    background-color: red;
+    background-color: green;
     
     font-size: 36px;
     text-align: center;k
     padding: 20px;
+}
+#logo{
+    border-radius: 50%;
 }
 header h1 {
     color: #fff5f5f5;
