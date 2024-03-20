@@ -7,9 +7,10 @@ body {
 }
 
 header {
-    
+    display:flex ;
+    align-items: stretch;
     background-color: green;
-    background-image: url("https://image.freepik.com/vetores-gratis/seta-verde-cyber-futuro-fundo-de-tecnologia_42077-2629.jpg");
+    background-image: url("https://avatars.githubusercontent.com/u/55566835?s=400&u=a16f99d47518f9e8d901ccbf75d7055f235e899e&v=4");
     font-size: 36px;
     text-align: center;
    
@@ -21,6 +22,23 @@ header h1 {
 
 #logo{
     border-radius: 50%;
+    
+}
+#head1{
+
+    width: 20%;
+    max-height: 50%;
+    min-height: 20%;
+    margin-top: 0.5%;
+    margin-left: 3.5%;
+
+}
+#head2{
+
+    width: 80%;
+    max-height: 50%;
+    min-height: 20%;
+    padding-top: 4%;
 }
 
 img {
@@ -31,7 +49,7 @@ img {
 
 nav {
     background-color: darkolivegreen;
-  
+  padding-left: 10%;
     
     
 }
@@ -130,6 +148,8 @@ a:hover {
 @media screen and (max-width: 768px) {
     header {
         padding: 10px;
+        display:grid;
+
     }
     #principal{
         display: grid;
