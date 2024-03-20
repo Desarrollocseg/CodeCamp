@@ -102,7 +102,7 @@ ul {
 
 article {
     border: 1px solid #ddd;
-    padding: 10px;
+    padding: 5px;
 }
 
 footer {
@@ -130,7 +130,7 @@ a:hover {
     }
     #principal{
         display: grid;
-        align-items: stretch;
+        align-items: normal;
 
     nav ul {
         grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
