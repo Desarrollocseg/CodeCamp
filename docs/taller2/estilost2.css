@@ -9,24 +9,30 @@ body {
 header {
     
     background-color: green;
- background-image:           url("https://image.freepik.com/vetores-gratis/seta-verde-cyber-futuro-fundo-de-tecnologia_42077-2629.jpg");
+    background-image: url("https://image.freepik.com/vetores-gratis/seta-verde-cyber-futuro-fundo-de-tecnologia_42077-2629.jpg");
     font-size: 36px;
     text-align: center;k
     padding: 20px;
 }
-#logo{
-    border-radius: 50%;
-}
 header h1 {
     color: #fff5f5f5;
 }
-
 /* Estilos para el logotipo */
+
+#logo{
+    border-radius: 50%;
+}
+
 img {
     max-width: 200px; /* Ajusta el ancho máximo */
     height: auto; /* Mantiene la proporción de aspecto */
 }
+/* Estilos para nav */
 
+nav {
+    background-color: darkolivegreen;
+    
+}
 nav ul {
     list-style: none;
     display: grid;
@@ -38,6 +44,30 @@ nav ul {
 nav a {
     color: white;
     text-decoration: none;
+    
+}
+/* Estilos */
+
+#principal{
+    display: flex;
+    align-items: stretch;
+   
+}
+
+#blog{
+    background-color:white;
+    
+}
+
+#contenido{
+    width: 80%;
+    min-height: 80%;
+}
+aside{
+    margin-right: 5%;
+    width: 20%;
+    min-height: 80%;
+    
 }
 
 section {
@@ -45,13 +75,10 @@ section {
     display: grid;
     grid-gap: 20px;
 }
-#blog{
-    background-color:white;
-    background-image: url("https://i.pinimg.com/originals/00/13/52/0013524999721413372d34abe73803b9.jpg");
-    
-}
+
+
 #contacto{
-    background-color blue;
+    background-color:white;
 }
 
 /* Estilos específicos */
@@ -79,10 +106,10 @@ article {
 }
 
 footer {
-    background-color: #333;
+    background-color: #b1aeae;
     color: #fff;
     text-align: center;
-   padding: 10px;
+    padding: 10px;
 }
 
 /* Estilos de enlaces */
@@ -92,7 +119,8 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration:none;
+    background-color: rgb(66, 97, 13);
 }
 
 /* Estilos para pantallas pequeñas */
