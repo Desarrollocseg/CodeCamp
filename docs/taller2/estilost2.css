@@ -174,7 +174,7 @@ a:hover {
     }
     #principal{
         display: grid;
-        align-items: normal;
+       
     }
     nav ul {
         grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
