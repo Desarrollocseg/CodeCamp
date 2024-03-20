@@ -3,17 +3,17 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fffafafa;
+    background-color: #809474fa;
 }
 
 header {
     display:flex ;
     align-items: stretch;
-    background-color: green;
+    background-color: rgba(0, 128, 0, 0.651);
     background-image: url("https://avatars.githubusercontent.com/u/55566835?s=400&u=a16f99d47518f9e8d901ccbf75d7055f235e899e&v=4");
     font-size: 36px;
     text-align: center;
-   
+   padding-bottom: 1%;
 }
 header h1 {
     color: #fff5f5f5;
@@ -49,7 +49,9 @@ img {
 
 nav {
     background-color: darkolivegreen;
-  padding-left: 10%;
+     padding-left: 10%;
+
+  
     
     
 }
@@ -59,11 +61,14 @@ nav ul {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-gap: 20px;
     justify-content: center;
+    padding-bottom: 1%;
+    padding-top: 1%;
 }
 
 nav a {
     color: white;
     text-decoration: none;
+    
     
 }
 /* Estilos */
@@ -85,9 +90,11 @@ nav a {
 }
 
 aside{
-    margin-right: 5%;
-    width: 20%;
+
+    background-color: #ffffff;
+    width: 50%;
     min-height: 80%;
+
     
 }
 
@@ -127,7 +134,7 @@ article {
 }
 
 footer {
-    background-color: #b1aeae;
+    background-color: 809474fa;
     color: #fff;
     text-align: center;
     padding: 10px;
