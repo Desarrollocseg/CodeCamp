@@ -128,6 +128,9 @@ a:hover {
     header {
         padding: 10px;
     }
+    #principal{
+        display: grid;
+        align-items: stretch;
 
     nav ul {
         grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
