@@ -11,8 +11,8 @@ header {
     background-color: green;
     background-image: url("https://image.freepik.com/vetores-gratis/seta-verde-cyber-futuro-fundo-de-tecnologia_42077-2629.jpg");
     font-size: 36px;
-    text-align: center;k
-    padding: 20px;
+    text-align: center;
+   
 }
 header h1 {
     color: #fff5f5f5;
@@ -31,6 +31,8 @@ img {
 
 nav {
     background-color: darkolivegreen;
+  
+    
     
 }
 nav ul {
@@ -60,9 +62,10 @@ nav a {
 }
 
 #contenido{
-    width: 80%;
+    width: 100%;
     min-height: 80%;
 }
+
 aside{
     margin-right: 5%;
     width: 20%;
@@ -73,7 +76,7 @@ aside{
 section {
     padding: 20px;
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 10px;
 }
 
 
@@ -131,7 +134,7 @@ a:hover {
     #principal{
         display: grid;
         align-items: normal;
-
+    }
     nav ul {
         grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
     }
@@ -148,5 +151,3 @@ a:hover {
         font-size: 18px;
     }
 }
-
-
