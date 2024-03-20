@@ -10,10 +10,9 @@ header {
     display:flex ;
     align-items: stretch;
     background-color: rgba(0, 128, 0, 0.651);
-    background-image: url("https://avatars.githubusercontent.com/u/55566835?s=400&u=a16f99d47518f9e8d901ccbf75d7055f235e899e&v=4");
     font-size: 36px;
     text-align: center;
-   padding-bottom: 1%;
+    padding-bottom: 1%;
 }
 header h1 {
     color: #fff5f5f5;
@@ -50,6 +49,7 @@ img {
 nav {
     background-color: darkolivegreen;
      padding-left: 10%;
+     
 
   
     
@@ -70,6 +70,13 @@ nav a {
     text-decoration: none;
     
     
+}
+nav a:hover {
+    text-decoration:none;
+    background-color:darkolivegreen;
+    margin: 1%;
+    padding: 3%;
+    opacity: 80%;
 }
 /* Estilos */
 
@@ -148,11 +155,18 @@ a {
 
 a:hover {
     text-decoration:none;
-    background-color: rgb(66, 97, 13);
+    
+    
+  
 }
 
 /* Estilos para pantallas pequeñas */
 @media screen and (max-width: 768px) {
+   
+    body {
+        display: grid;
+
+    }
     header {
         padding: 10px;
         display:grid;
