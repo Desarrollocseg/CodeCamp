@@ -268,9 +268,17 @@ a:hover {
         flex-direction: column; /* Cambia la dirección del flexbox a columna */
 
     }
+    #servicios article {
+        width: 100%;
+        min-height: 80%;
+    }
     #contacto{
         flex-direction: column; /* Cambia la dirección del flexbox a columna */
 
+    }
+    #contacto article{
+        width: 100%;
+        min-height: 80%;
     }
     #footer{
         flex-direction: column; /* Cambia la dirección del flexbox a columna */
