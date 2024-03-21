@@ -174,7 +174,7 @@ a:hover {
   
 }
 
-/* Estilos para pantallas pequeñas */
+/* Estilos para pantallas pequeñas 
 @media screen and (max-width: 768px) {
    
     body {
@@ -204,5 +204,47 @@ a:hover {
 
     h3 {
         font-size: 18px;
+    }
+}*/
+
+/* Estilos para pantallas pequeñas */
+@media only screen and (max-width: 768px) {
+    /* Estilos para nav */
+    nav {
+        padding-left: 5%; /* Reduce el padding en pantallas pequeñas */
+    }
+
+    nav ul {
+        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); /* Ajusta el tamaño de los elementos de la lista */
+        grid-gap: 10px; /* Reduce el espacio entre elementos de la lista */
+    }
+
+    nav a {
+        padding: 10px; /* Aumenta el espacio alrededor de los enlaces */
+    }
+
+    /* Estilos para el contenido */
+    #principal {
+        flex-direction: column; /* Cambia la dirección del flexbox a columna */
+    }
+
+    #serviciosAside {
+        width: 100%; /* Ajusta el ancho del aside al 100% */
+        min-height: auto; /* Elimina la altura mínima */
+    }
+
+    /* Otros ajustes */
+    header {
+        font-size: 24px; /* Reduce el tamaño del texto del encabezado */
+    }
+
+    #head1 {
+        width: 30%; /* Ajusta el ancho del logotipo */
+        margin-left: 5%; /* Ajusta el margen izquierdo */
+    }
+
+    #head2 {
+        width: 70%; /* Ajusta el ancho del encabezado */
+        padding-top: 2%; /* Ajusta el relleno superior */
     }
 }
