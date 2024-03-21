@@ -173,7 +173,7 @@ a:hover {
 }
 
 
-* Estilos para pantallas pequeñas */
+/* Estilos para pantallas pequeñas */
 @media only screen and (max-width: 768px) {
     /* Estilos para nav */
     nav {
