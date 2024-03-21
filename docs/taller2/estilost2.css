@@ -170,42 +170,7 @@ a {
 a:hover {
     text-decoration:none;
     
-    
-  
 }
-
-/* Estilos para pantallas pequeñas 
-@media screen and (max-width: 768px) {
-   
-    body {
-        display: grid;
-
-    }
-    header {
-        padding: 10px;
-        display:grid;
-
-    }
-    #principal{
-        display: grid;
-       
-    }
-    nav ul {
-        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
-    }
-
-    h1 {
-        font-size: 24px;
-    }
-
-    h2 {
-        font-size: 20px;
-    }
-
-    h3 {
-        font-size: 18px;
-    }
-}*/
 
 /* Estilos para pantallas pequeñas */
 @media only screen and (max-width: 768px) {
