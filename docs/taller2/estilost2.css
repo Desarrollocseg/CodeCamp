@@ -29,18 +29,18 @@ header h1 {
     max-height: 50%;
     min-height: 20%;
     margin-top: 4%;
-    margin-left: 3.5%;
+    margin-left: 5%;
 
 }
 #head2{
-
+    justify-content: left;
     width: 80%;
     max-height: 50%;
     min-height: 20%;
-    padding-top: 4%;
+    padding-top: 10%;
 }
 #head2 h1{
-font-size:larger;
+font-size:xx-large;
 }
 
 img {
@@ -49,13 +49,12 @@ img {
 }
 /* Estilos para nav */
 
-nav {
+nav{
     position: fixed;
     top: 0;
     width: 100%;
     background-color: darkolivegreen;
-     padding-left: 10%;
-     padding-left: 10%;
+    padding-left: 5%;
     z-index: 1000; /* Asegura que la barra de navegación esté sobre otros elementos*/
 
   
@@ -90,6 +89,33 @@ nav a:hover {
     padding: 3%;
     opacity: 80%;
 }
+/* Estilos para el logotipo en la barra de navegación */
+#logo-navbar{
+   
+    display: none; /* Oculta el logotipo en la barra de navegación por defecto */
+    margin-right: 10%;/* Ajusta el margen entre el logotipo y las opciones de navegación */
+   
+}
+
+#logo-navbar-image{
+    border-radius: 50%;
+    width: 11%;
+    margin-right:10%;
+    
+
+
+}
+
+/* Estilos para la barra de navegación fija */
+.sticky {
+
+    position:fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+
 /* Estilos */
 
 #principal{
@@ -179,16 +205,16 @@ a:hover {
 /* Estilos para pantallas pequeñas */
 @media only screen and (max-width: 768px) {
     /* Estilos para nav */
-    nav {
+    #navbar {
         padding-left: 0%; /* Reduce el padding en pantallas pequeñas */
     }
 
-    nav ul {
+    #navbar ul {
         grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); /* Ajusta el tamaño de los elementos de la lista */
         grid-gap: 10px; /* Reduce el espacio entre elementos de la lista */
     }
 
-    nav a {
+    #navbar a {
         padding: 5px; /* Aumenta el espacio alrededor de los enlaces */
         font-size: large;
     }
