@@ -243,7 +243,7 @@ a:hover {
     /* Estilos para nav */
     #navbar {
         padding-left: 0%; /* Reduce el padding en pantallas pequeñas */
-        flex-direction: column; /* Cambia la dirección del flexbox a columna */
+        flex-direction: row; /* Cambia la dirección del flexbox a columna */
 
     }
 
@@ -265,7 +265,7 @@ a:hover {
     #servicios {
         width: 100%; /* Ajusta el ancho del aside al 100% */
         min-height: auto; /* Elimina la altura mínima */
-        flex-direction: column; /* Cambia la dirección del flexbox a columna */
+        flex-direction: row; /* Cambia la dirección del flexbox a columna */
 
     }
     #servicios article {
@@ -273,7 +273,7 @@ a:hover {
         min-height: 80%;
     }
     #contacto{
-        flex-direction: column; /* Cambia la dirección del flexbox a columna */
+        flex-direction: row; /* Cambia la dirección del flexbox a columna */
 
     }
     #contacto article{
@@ -281,26 +281,24 @@ a:hover {
         min-height: 80%;
     }
     #footer{
-        flex-direction: column; /* Cambia la dirección del flexbox a columna */
+        flex-direction: row; /* Cambia la dirección del flexbox a columna */
 
     }
 
     /* Otros ajustes */
     header {
         font-size: 24px; /* Reduce el tamaño del texto del encabezado */
-        flex-direction: column; /* Cambia la dirección del flexbox a columna */
+        flex-direction:row; /* Cambia la dirección del flexbox a columna */
     }
 
     }
 
     #head1 {
-        flex-direction: column; /* Cambia la dirección del flexbox a columna */
         width: 30%; /* Ajusta el ancho del logotipo */
         margin-left: 5%; /* Ajusta el margen izquierdo */
     }
 
     #head2 {
-        flex-direction: column; /* Cambia la dirección del flexbox a columna */
         width: 70%; /* Ajusta el ancho del encabezado */
         padding-top: 2%; /* Ajusta el relleno superior */
     }
