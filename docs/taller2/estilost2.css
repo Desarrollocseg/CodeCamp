@@ -209,16 +209,18 @@ a:hover {
 
 /* Estilos para pantallas pequeñas */
 @media only screen and (max-width: 768px) {
-    
+
     /* Estilos para nav */
     nav {
         font-size: 18px; /* Tamaño de fuente más grande */
         padding-left: 5%; /* Reducción del relleno izquierdo */
+        height: 50%; /* Altura igual a la mitad del header */
     }
 
     nav ul {
         grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Ajuste del ancho de la columna */
         grid-gap: 10px; /* Espaciado entre elementos */
+        
     }
 
     nav a {
