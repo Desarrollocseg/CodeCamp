@@ -39,6 +39,9 @@ header h1 {
     min-height: 20%;
     padding-top: 4%;
 }
+#head2 h1{
+font-size:larger;
+}
 
 img {
     max-width: 200px; /* Ajusta el ancho máximo */
@@ -177,7 +180,7 @@ a:hover {
 @media only screen and (max-width: 768px) {
     /* Estilos para nav */
     nav {
-        padding-left: 5%; /* Reduce el padding en pantallas pequeñas */
+        padding-left: 0%; /* Reduce el padding en pantallas pequeñas */
     }
 
     nav ul {
@@ -186,7 +189,8 @@ a:hover {
     }
 
     nav a {
-        padding: 10px; /* Aumenta el espacio alrededor de los enlaces */
+        padding: 5px; /* Aumenta el espacio alrededor de los enlaces */
+        font-size: large;
     }
 
     /* Estilos para el contenido */
@@ -202,6 +206,9 @@ a:hover {
     /* Otros ajustes */
     header {
         font-size: 24px; /* Reduce el tamaño del texto del encabezado */
+        flex-direction: column;
+    }
+
     }
 
     #head1 {
@@ -213,4 +220,3 @@ a:hover {
         width: 70%; /* Ajusta el ancho del encabezado */
         padding-top: 2%; /* Ajusta el relleno superior */
     }
-}
