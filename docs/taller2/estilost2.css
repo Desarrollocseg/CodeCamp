@@ -3,23 +3,26 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #809474fa;
+    background-color: #fffffffa;
 }
 
 header {
     display:flex ;
     align-items: stretch;
-    background-color: rgba(0, 128, 0, 0.651);
+    background-color: rgb(2, 88, 2);
     font-size: 36px;
     text-align: center;
-    padding-bottom: 1%;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
 }
 header h1 {
+
     color: #fff5f5f5;
 }
 /* Estilos para el logotipo */
 
 #logo{
+
     border-radius: 50%;
     
 }
@@ -28,8 +31,9 @@ header h1 {
     width: 20%;
     max-height: 50%;
     min-height: 20%;
-    margin-top: 4%;
-    margin-left: 5%;
+    margin:3% ;
+    margin-bottom: 0%;
+    
 
 }
 #head2{
@@ -37,10 +41,11 @@ header h1 {
     width: 80%;
     max-height: 50%;
     min-height: 20%;
-    padding-top: 10%;
+    padding:10%;
+    padding-bottom:1%;
 }
 #head2 h1{
-font-size:xx-large;
+font-size:40px;
 }
 
 img {
@@ -121,7 +126,9 @@ nav a:hover {
 #principal{
     display: flex;
     align-items: stretch;
-   
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0%;
 }
 
 #blog{
@@ -132,6 +139,7 @@ nav a:hover {
 #contenido{
     width: 100%;
     min-height: 80%;
+
 }
 
 #serviciosAside {
@@ -184,8 +192,8 @@ article {
 }
 
 footer {
-    background-color: 809474fa;
-    color: #fff;
+    background-color: #809474fa;
+    color: 809474fa;
     text-align: center;
     padding: 10px;
 }
