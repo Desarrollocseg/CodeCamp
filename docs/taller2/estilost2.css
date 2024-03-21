@@ -209,18 +209,20 @@ a:hover {
 
 /* Estilos para pantallas pequeñas */
 @media only screen and (max-width: 768px) {
+    
     /* Estilos para nav */
     nav {
-        padding-left: 5%; /* Reduce el padding en pantallas pequeñas */
+        font-size: 18px; /* Tamaño de fuente más grande */
+        padding-left: 5%; /* Reducción del relleno izquierdo */
     }
 
     nav ul {
-        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); /* Ajusta el tamaño de los elementos de la lista */
-        grid-gap: 10px; /* Reduce el espacio entre elementos de la lista */
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Ajuste del ancho de la columna */
+        grid-gap: 10px; /* Espaciado entre elementos */
     }
 
     nav a {
-        padding: 10px; /* Aumenta el espacio alrededor de los enlaces */
+        padding: 10px 15px; /* Aumento del relleno */
     }
 
     /* Estilos para el contenido */
