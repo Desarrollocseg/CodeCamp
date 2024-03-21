@@ -31,7 +31,7 @@ header h1 {
     width: 20%;
     max-height: 50%;
     min-height: 20%;
-    margin:3% ;
+    margin-top:3.5% ;
     margin-bottom: 0%;
     
 
@@ -43,6 +43,7 @@ header h1 {
     min-height: 20%;
     padding:10%;
     padding-bottom:1%;
+    margin-top: auto;
 }
 #head2 h1{
 font-size:40px;
@@ -141,23 +142,49 @@ nav a:hover {
     min-height: 80%;
 
 }
+#contenido  {
+    text-align: justify;
 
-#serviciosAside {
-    display: none;
-    background-color: #ffffff;
-    width: 50%;
-    min-height: 80%;
-    transition: opacity 0.3s ease; /* Agrega una transición suave para la propiedad de opacidad */
+   
+
 }
 
-#serviciosAside.visible {
+#servicios {
+    display: none;
+    background-color: #cbeed6;
+    width: auto;
+    min-height: 80%;
+    transition: opacity 0.3s ease; /* Agrega una transición suave para la propiedad de opacidad */
+    padding: auto;
+
+}
+#servicios ul li{
+    text-align: center;
+    text-decoration:none;
+    display:block;
+    font-size: x-large;
+}
+#servicios a{
+    color:rgb(80, 70, 70);
+
+}
+#servicios h2{
+    font-size:xx-large;
+    text-align: center;
+   
+    }
+#servicios article{
+    border-style: none;
+}
+
+#servicios.visible {
     display: block;
     opacity: 1; /* Muestra el elemento con una opacidad completa */
 }
 
 
 section {
-    padding: 20px;
+    padding: 10px;
     display: grid;
     grid-gap: 10px;
 }
@@ -165,6 +192,8 @@ section {
 
 #contacto{
     background-color:white;
+    text-align: center;
+    
 }
 
 /* Estilos específicos */
@@ -187,7 +216,6 @@ ul {
 }
 
 article {
-    border: 1px solid #ddd;
     padding: 5px;
 }
 
