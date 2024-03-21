@@ -175,22 +175,38 @@ a:hover {
 /* Estilos para pantallas pequeñas */
 @media only screen and (max-width: 768px) {
 
-    /* Estilos para nav */
+    /* Estilos para pantallas pequeñas */
+@media only screen and (max-width: 768px) {
+    /* Ajustes para la barra de navegación */
     nav {
-        font-size: 18px; /* Tamaño de fuente más grande */
         padding-left: 5%; /* Reducción del relleno izquierdo */
-        height: 50%; /* Altura igual a la mitad del header */
     }
 
     nav ul {
-        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Ajuste del ancho de la columna */
-        grid-gap: 10px; /* Espaciado entre elementos */
-        
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-gap: 20px;
+        justify-content: center;
+        padding-bottom: 1%;
+        padding-top: 1%;
+        margin: 0; /* Elimina el margen predeterminado de la lista */
     }
 
     nav a {
-        padding: 10px 15px; /* Aumento del relleno */
+        color: white;
+        text-decoration: none;
+        background-color: darkolivegreen; /* Color de fondo */
+        padding: 10px 20px; /* Aumento del relleno */
+        border-radius: 5px; /* Bordes redondeados */
+        text-align: center; /* Centra el texto horizontalmente */
     }
+
+    nav a:hover {
+        background-color: #5c7835; /* Color de fondo al pasar el cursor */
+        opacity: 1; /* Restaura la opacidad al pasar el cursor */
+    }
+}
 
     /* Estilos para el contenido */
     #principal {
