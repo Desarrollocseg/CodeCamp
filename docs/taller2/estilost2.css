@@ -281,7 +281,7 @@ a:hover {
 
 
 /* Estilos para pantallas pequeñas */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 300px) {
     /* Estilos para nav */
     #navbar {
         padding-left: 0%; /* Reduce el padding en pantallas pequeñas */
