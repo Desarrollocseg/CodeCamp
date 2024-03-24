@@ -7,8 +7,10 @@ body {
 }
 
 header {
+
     display:flex ;
-    align-items: stretch;
+    flex-wrap: wrap;
+
     background-color: rgb(2, 88, 2);
     font-size: 36px;
     text-align: center;
@@ -27,25 +29,20 @@ header h1 {
     
 }
 #head1{
-
-    width: 20%;
-    max-height: 50%;
-    min-height: 20%;
-    margin-top:3.5% ;
-    margin-bottom: 0%;
+    flex:content;
     
-
+    margin-top:3.5% ;
+    
 }
 #head2{
-    justify-content: left;
-    width: 80%;
-    max-height: 50%;
-    min-height: 20%;
-    padding:10%;
-    padding-bottom:1%;
+
+    flex:content;
+ 
     margin-top: auto;
 }
 #head2 h1{
+
+    
 font-size:40px;
 }
 
@@ -53,6 +50,7 @@ img {
     max-width: 200px; /* Ajusta el ancho máximo */
     height: auto; /* Mantiene la proporción de aspecto */
 }
+
 /* Estilos para nav */
 
 nav{
@@ -95,6 +93,7 @@ nav a:hover {
     padding: 3%;
     opacity: 80%;
 }
+
 /* Estilos para el logotipo en la barra de navegación */
 #logo-navbar{
    
@@ -126,10 +125,23 @@ nav a:hover {
 
 #principal{
     display: flex;
-    align-items: stretch;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 0%;
+    flex-wrap: wrap;
+  
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 10%;
+    margin-bottom: 10%;
+}
+.column1 {
+    flex:content;
+   
+}
+.column2 {
+    flex:content;
+   
 }
 
 #blog{
@@ -138,24 +150,18 @@ nav a:hover {
 }
 
 #contenido{
-    width: 100%;
+    flex:content;
     min-height: 80%;
-
-}
-#contenido  {
     text-align: justify;
-
-   
-
 }
+
 
 #servicios {
+    flex:content;
     display: none;
     background-color: #cbeed6;
-    width: auto;
-    min-height: 80%;
     transition: opacity 0.3s ease; /* Agrega una transición suave para la propiedad de opacidad */
-    padding: auto;
+   
 
 }
 #servicios ul li{
@@ -184,13 +190,15 @@ nav a:hover {
 
 
 section {
-    padding: 10px;
+    padding:0%;
     display: grid;
     grid-gap: 10px;
 }
 
 
 #contacto{
+    flex:content;
+
     background-color:white;
     text-align: center;
     
@@ -220,9 +228,29 @@ article {
 }
 
 footer {
+    display:flex ;
+    flex-wrap: wrap;
+    flex-direction:row;
     background-color: #809474fa;
     color: 809474fa;
     text-align: center;
+    padding-top: 2%;
+}
+#footer1{
+
+    flex:content;
+
+
+}
+#footer2{
+
+    flex:content;
+
+}
+#footer3{
+
+    flex:content;
+
 }
 footer img{
     width: auto;
@@ -235,9 +263,8 @@ footer ul {
 }
 
 footer ul li {
-    display: inline; /* Mostrar elementos de la lista en línea */
-   /* Espacio entre elementos */
-    margin-right: 10px;
+   
+    margin-right: 1px;
 }
 
 
@@ -259,12 +286,15 @@ a:hover {
     #navbar {
         padding-left: 0%; /* Reduce el padding en pantallas pequeñas */
         flex-direction: row; /* Cambia la dirección del flexbox a columna */
+        flex: 100%;        
 
     }
 
     #navbar ul {
         grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); /* Ajusta el tamaño de los elementos de la lista */
         grid-gap: 10px; /* Reduce el espacio entre elementos de la lista */
+        flex: 100%;        
+
     }
 
     #navbar a {
@@ -297,7 +327,20 @@ a:hover {
     }
     #footer{
         flex-direction: row; /* Cambia la dirección del flexbox a columna */
+        flex: 100%;        
+        
 
+    }
+    #footer1{
+        flex: 100%;        
+        
+    }
+    #footer2{
+        flex: 100%;  
+    }
+    #footer3{
+        flex: 100%;        
+        
     }
 
     /* Otros ajustes */
@@ -317,3 +360,11 @@ a:hover {
         width: 70%; /* Ajusta el ancho del encabezado */
         padding-top: 2%; /* Ajusta el relleno superior */
     }
+    
+        .column1 {
+            flex: 100%; /* Cambia el ancho de las columnas a 100% para que se apilen en dispositivos pequeños */
+        }
+        .column2 {
+            flex: 100%; /* Cambia el ancho de las columnas a 100% para que se apilen en dispositivos pequeños */
+        }
+    
