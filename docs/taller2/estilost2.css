@@ -292,14 +292,14 @@ a:hover {
 
     #navbar ul {
         grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); /* Ajusta el tamaño de los elementos de la lista */
-        grid-gap: 10px; /* Reduce el espacio entre elementos de la lista */
+        grid-gap: 5px; /* Reduce el espacio entre elementos de la lista */
         flex: 100%;        
 
     }
 
     #navbar a {
         padding: 5px; /* Aumenta el espacio alrededor de los enlaces */
-        font-size: large;
+        font-size: x-large;
     }
 
     /* Estilos para el contenido */
@@ -310,21 +310,22 @@ a:hover {
     #servicios {
         width: 100%; /* Ajusta el ancho del aside al 100% */
         min-height: auto; /* Elimina la altura mínima */
-        flex-direction: row; /* Cambia la dirección del flexbox a columna */
+        flex-direction: column; /* Cambia la dirección del flexbox a columna */
 
     }
-    #servicios article {
+    /*#servicios article {
         width: 100%;
         min-height: 80%;
-    }
+    }*/
+   
     #contacto{
-        flex-direction: row; /* Cambia la dirección del flexbox a columna */
+        flex-direction: column; /* Cambia la dirección del flexbox a columna */
 
     }
-    #contacto article{
+   /* #contacto article{
         width: 100%;
         min-height: 80%;
-    }
+    }*/
     #footer{
         flex-direction: row; /* Cambia la dirección del flexbox a columna */
         flex: 100%;        
@@ -345,20 +346,25 @@ a:hover {
 
     /* Otros ajustes */
     header {
-        font-size: 24px; /* Reduce el tamaño del texto del encabezado */
-        flex-direction:row; /* Cambia la dirección del flexbox a columna */
+        font-size:x-large; /* Reduce el tamaño del texto del encabezado */
+        flex-direction:column; /* Cambia la dirección del flexbox a columna */
+        flex: 100%;
     }
 
-    }
+    
 
     #head1 {
-        width: 30%; /* Ajusta el ancho del logotipo */
-        margin-left: 5%; /* Ajusta el margen izquierdo */
+        /*width: 30%; /* Ajusta el ancho del logotipo */
+        /*margin-left: 5%; /* Ajusta el margen izquierdo */
+        flex: 100%; /* Cambia el ancho de las columnas a 100% para que se apilen en dispositivos pequeños */
+
     }
 
     #head2 {
-        width: 70%; /* Ajusta el ancho del encabezado */
-        padding-top: 2%; /* Ajusta el relleno superior */
+        /*width: 70%; /* Ajusta el ancho del encabezado */
+        /*padding-top: 2%; /* Ajusta el relleno superior */
+        flex: 100%; /* Cambia el ancho de las columnas a 100% para que se apilen en dispositivos pequeños */
+
     }
     
         .column1 {
