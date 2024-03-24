@@ -4,6 +4,33 @@
     <meta charset="UTF-8">
     <title>Ciberseguridad 101</title>
     <link rel="stylesheet" type="text/css" href="estilost2.css">
+
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 5%;
+            margin-bottom: 10%;
+        }
+        .column1 {
+            flex:content;
+           
+        }
+        .column2 {
+            flex:content;
+           
+        }
+       
+        /* Media query para dispositivos de pantalla pequeña */
+        @media screen and (max-width: 768px) {
+            .column1 {
+                flex: 100%; /* Cambia el ancho de las columnas a 100% para que se apilen en dispositivos pequeños */
+            }
+            .column2 {
+                flex: 100%; /* Cambia el ancho de las columnas a 100% para que se apilen en dispositivos pequeños */
+            }
+        }
+    </style>
 </head>
 <body>
 
@@ -35,8 +62,9 @@
         
     </nav>   
     
-    
-    <div id="principal">
+    <div class="container">
+        <div class="column1">
+            <div id="principal">
 
     <section id="blog">
 
@@ -51,8 +79,10 @@
         </article>
 
     </section>
-</div>
+        </div>
+    </div>
 
+    <div class="column2">
 
     <section id="servicios">
         <article>
@@ -64,13 +94,7 @@
             </ul>
         </article>
     </section>
-
     
-    
-
-
-
-
     <section id="contacto">
         <article>
         <h2>Contacto</h2>
@@ -81,6 +105,9 @@
         </address>
     </article>
     </section>
+    </div>
+</div>
+
     <footer>
         <div id="footer1">
 
