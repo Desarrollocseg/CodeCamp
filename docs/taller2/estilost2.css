@@ -40,6 +40,7 @@ header h1 {
     flex:content;
  
     margin-top: auto;
+    
 }
 #head2 h1{
 
@@ -79,6 +80,8 @@ nav ul {
 
 nav ul li {
     display: inline;
+    padding-left: 20%;
+    
 }
 
 nav a {
@@ -104,12 +107,18 @@ nav a:hover {
 
 #logo-navbar-image{
     border-radius: 50%;
-    width: 15%;
-    margin-right:10%;
+    width: 20%;
+    margin:0%;
+    margin-right: auto;
+    margin-top: auto;
+    border-color: darkolivegreen;
+    border-style:solid;
 }
 #logo-navbar ul{
 display: row;
 float: left;
+position: absolute;
+
 
 }
 
