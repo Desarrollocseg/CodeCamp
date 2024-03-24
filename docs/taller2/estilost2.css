@@ -98,16 +98,17 @@ nav a:hover {
 #logo-navbar{
    
     display: none; /* Oculta el logotipo en la barra de navegación por defecto */
-    margin-right: 10%;/* Ajusta el margen entre el logotipo y las opciones de navegación */
    
 }
 
 #logo-navbar-image{
     border-radius: 50%;
-    width: 11%;
+    width: 15%;
     margin-right:10%;
-    
-
+}
+#logo-navbar ul{
+display: row;
+float: left;
 
 }
 
