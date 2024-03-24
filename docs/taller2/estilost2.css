@@ -282,7 +282,7 @@ a:hover {
 
 
 /* Estilos para pantallas pequeñas */
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 360px) {
     /* Estilos para nav */
     #navbar {
         padding-left: 0%; /* Reduce el padding en pantallas pequeñas */
@@ -374,4 +374,4 @@ a:hover {
         .column2 {
             flex: 100%; /* Cambia el ancho de las columnas a 100% para que se apilen en dispositivos pequeños */
         }
-    
+    }
