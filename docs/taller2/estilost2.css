@@ -117,7 +117,7 @@ nav a:hover {
 #logo-navbar ul{
 display: row;
 float: left;
-position: absolute;
+position:absolute;
 
 
 }
