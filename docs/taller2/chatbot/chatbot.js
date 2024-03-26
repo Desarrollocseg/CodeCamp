@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
             inputField.value = "";
              // Enviar el mensaje al servidor
         const xhr = new XMLHttpRequest();
-        xhr.open("POST", "guardar_mensaje.php", true);
+        xhr.open("POST", "guardarmensaje.php", true);
         xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
         xhr.onreadystatechange = function() {
             if (xhr.readyState == 4 && xhr.status == 200) {
@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function() {
         messageElement.textContent = message;
         chatbotBody.appendChild(messageElement);
         chatbotBody.scrollTop = chatbotBody.scrollHeight; // Desplazar el chat hacia abajo automáticamente
-        receiveMessage("Lo siento, aún no puedo responder a eso."); // Simular respuesta del chatbot
+        receiveMessage("Dejanos tu correo para enviarte una respuesta "); // Simular respuesta del chatbot
     }
 
     function receiveMessage(message) {
