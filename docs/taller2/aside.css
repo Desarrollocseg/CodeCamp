@@ -1,14 +1,14 @@
 /* Estilos para la sección de publicidad */
 aside{
     
-    width: 20%;
-    background-color: lightsalmoon;
-    min-height: 80%;
-    padding-left: 10%;
-    display: grid;
+   
 }
 .ads-section {
   margin-top: 20px;
+  width: 20%;
+  background-color: lightsalmoon;
+  min-height: 80%;
+  padding-left: 10%;
 }
 
 .ad {
