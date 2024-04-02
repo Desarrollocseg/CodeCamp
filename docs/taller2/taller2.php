@@ -4,7 +4,6 @@
 
    
 <main>
-<?php require('./seccionesphp/aside.php'); ?>
 <div class="container">
 
         <!--carousel-->
@@ -17,6 +16,7 @@
         <div class="column1">
             <div id="principal">
 
+    <?php require('./seccionesphp/aside.php'); ?>
 
 
     <section id="blog">
