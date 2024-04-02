@@ -1,10 +1,11 @@
 /* Estilos para la sección de publicidad */
 aside{
-    position: fixed;
+    position:absolute;
     width: 20%;
     background-color: lightsalmoon;
     min-height: 80%;
     padding-left: 10%;
+    display: grid;
 }
 .ads-section {
   margin-top: 20px;
@@ -14,6 +15,7 @@ aside{
   margin-bottom: 20px;
   border: 1px solid #ddd;
   border-radius: 5px;
+  
   overflow: hidden;
 }
 
