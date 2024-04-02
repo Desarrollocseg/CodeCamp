@@ -63,9 +63,10 @@ nav{
     padding-left: 5%;
     z-index: 1000; /* Asegura que la barra de navegación esté sobre otros elementos*/
 
-  
-    
-    
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 nav ul {
     list-style: none;
@@ -73,13 +74,13 @@ nav ul {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-gap: 20px;
     justify-content: center;
-    padding-bottom: 1%;
+    padding-bottom: 0%;
     padding-top: 1%;
     margin: 0; /* Elimina el margen predeterminado de la lista */
 }
 
 nav ul li {
-    display: inline;
+   /* display: inline;*/
     padding-left: 20%;
     
 }
@@ -87,7 +88,7 @@ nav ul li {
 nav a {
     color: white;
     text-decoration: none;
-    
+     font-size: 16px;
     
 }
 nav a:hover {
@@ -102,15 +103,49 @@ nav a:hover {
 #logo-navbar{
    
     display: none; /* Oculta el logotipo en la barra de navegación por defecto */
+    margin-right: 50px; /* Ajusta el margen derecho para separar el logo del borde */
+}
+#navbar {
+    background-color: darkolivegreen;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar la barra de navegación horizontalmente */
+
+}
+#menu-items {
+    list-style-type: none;
+    margin-left: 10%;
+    margin-right: 20%;
+    padding: 0;
+    display:flex;
    
+}
+#menu-items ul {
+    
+    margin: 0;
+    padding: 0;
+    display:flex;
+   
+}
+#menu-items li {
+    margin-right: 10px;
+}
+#menu-items li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
 }
 
 #logo-navbar-image{
     border-radius: 50%;
     width: 20%;
     margin:0%;
-    margin-right: auto;
-    margin-top: auto;
+    margin-right: 10px;
+    margin-left: 10%;
+   /* margin-top: 5px;*/
     border-color: darkolivegreen;
     border-style:solid;
 }
@@ -118,7 +153,7 @@ nav a:hover {
 display: row;
 float: left;
 position:absolute;
-
+align-items: center;
 
 }
 
@@ -131,6 +166,18 @@ position:absolute;
     z-index: 1000;
 }
 
+/* Estilos para el menú de hamburguesa */
+#menu-toggle {
+    display: none; /* Ocultar el menú de hamburguesa por defecto */
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+}
 
 /* Estilos */
 
@@ -385,3 +432,13 @@ a:hover {
             flex: 100%; /* Cambia el ancho de las columnas a 100% para que se apilen en dispositivos pequeños */
         }
     }
+/* Estilos para la barra de navegación en pantalla pequeña */
+@media screen and (max-width: 768px) {
+    #menu-items {
+        display: none; /* Ocultar los elementos de la barra de navegación en pantalla pequeña */
+    }
+
+    #menu-toggle {
+        display: block; /* Mostrar el menú de hamburguesa en pantalla pequeña */
+    }
+}

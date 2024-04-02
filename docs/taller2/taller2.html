@@ -1,10 +1,13 @@
+
+
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
     <title>Ciberseguridad 101</title>
     <link rel="stylesheet" type="text/css" href="estilost2.css">
-
+    
+    <link href="aside.css" rel="stylesheet">
     <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -35,15 +38,20 @@
     </header>
 
     <nav id="navbar">
+        <div id="menu-toggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
         
             
         <div id="logo-navbar"> <!-- Aquí aparecerá el logo en la barra de navegación -->
-            <ul>
+            
             <img src="https://avatars.githubusercontent.com/u/55566835?s=400&u=a16f99d47518f9e8d901ccbf75d7055f235e899e&v=4" alt="Logo" id="logo-navbar-image">
-            </ul>   
+              
         </div>
    
-        <ul>
+        <ul id="menu-items">
             <li><a href="#inicio"rel="noopener noreferrer">INICIO</a></li>
             <li><a href="https://mistickcruz.github.io/CodeCamp/taller2/blog.html#blog"rel="noopener noreferrer">BLOG</a></li>
             <li><a href="#servicios"rel="noopener noreferrer">SERVICIOS</a></li>
@@ -52,15 +60,43 @@
         
     </nav>   
     
-    <div class="container">
+<main>
+    <aside class="ads-section">
+        <div class="ad">
+            <img src="imagen1.jpg" alt="Publicidad 1">
+            <div class="ad-text">
+                <h3>Título de la Publicidad 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</p>
+            </div>
+        </div>
+        <div class="ad">
+            <img src="imagen2.jpg" alt="Publicidad 2">
+            <div class="ad-text">
+                <h3>Título de la Publicidad 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</p>
+            </div>
+        </div>
+        <!-- Agrega más bloques de publicidad según sea necesario -->
+    </aside>
+   <div class="container">
+
+        <!--carousel-->
+
+        
+          
+        
+        <!--carousel-->
+
         <div class="column1">
             <div id="principal">
+
+
 
     <section id="blog">
 
         <article id="contenido">
         <h2>Protegiendo tu mundo digital</h2>
-        
+      
             <h3>¿Que es la Ciberseguridad?</h3>
             <p> La Ciberseguridad es crucial para proteger sistemas, redes y datos contra amenazas en línea. La ciberseguridad se refiere a la práctica de proteger sistemas, redes, programas y datos digitales contra ataques, daños o acceso no autorizado. Involucra la implementación de medidas para garantizar la confidencialidad, integridad y disponibilidad de la información en entornos cibernéticos.
              </p>
@@ -99,27 +135,37 @@
   
     </div>
 </div>
-
-    <footer>
-        <div id="footer1">
-            <ul>
-                <li><a href="#"><img src="" alt ="Mapa"></a></li>
-           </ul>
-        </div>
-        <div id="footer2">
-    <ul>
-         <li><a href="https://www.youtube.com/@CesarCruz-Colombia"><img src="img/18-youtube.svg" alt ="youtube"target="_blank" rel="noopener noreferrer"></a></li>
-        <li><a href="https://github.com/MISTICKCRUZ"><img src="img/github.png" alt="github"target="_blank" rel="noopener noreferrer"></a></li>
-    </ul>
-      </div>
-    <div id="footer3">
+</main>
+<footer>
+    <div id="footer1">
         <ul>
-            <li><a href="#"><img src="" alt ="mas"></a></li>
+            <li><a href="#"><img src="" alt ="Mapa"></a></li>
        </ul>
     </div>
-    </footer>
+    <div id="footer2">
+<ul>
+     <li><a href="https://www.youtube.com/@CesarCruz-Colombia"><img src="img/18-youtube.svg" alt ="youtube"target="_blank" rel="noopener noreferrer"></a></li>
+    <li><a href="https://github.com/MISTICKCRUZ"><img src="img/github.png" alt="github"target="_blank" rel="noopener noreferrer"></a></li>
+</ul>
+  </div>
+<div id="footer3">
+    <ul>
+        <li><a href="#"><img src="" alt ="mas"></a></li>
+   </ul>
+</div>
+</footer>
 
-    <script src="scripts/aside-script.js"></script>
-    <script src="scripts/navbar-script.js"></script>
+<script src="scripts/aside-script.js"></script>
+<script src="scripts/navbar-script.js"></script>
+<script src="scripts/carrousel.js"></script>
+<!--carousel-->
+
+
+
+<script>
+$('.carousel').carousel();
+</script>
+
 </body>
 </html>
+
