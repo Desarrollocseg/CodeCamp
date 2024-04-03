@@ -4,8 +4,6 @@
  * Copyright 2011-2024 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
- body{  background-color: #052c65;
- }
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -750,7 +748,6 @@ progress {
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-right: auto;
   margin-left: auto;
-  margin-top: 30%;
 }
 
 @media (min-width: 576px) {
@@ -6228,7 +6225,6 @@ textarea.form-control-lg {
 [data-bs-theme=dark] .carousel .carousel-caption, [data-bs-theme=dark].carousel .carousel-caption {
   color: #000;
 }
-
 
 .spinner-grow,
 .spinner-border {
