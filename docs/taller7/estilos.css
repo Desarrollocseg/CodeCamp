@@ -2,61 +2,17 @@
 
 
 
-/* Estilos personalizados para la barra de navegación */
-.navbar {
-    background-color: #343a40; /* Color de fondo de la barra de navegación */
-  }
-  
-  .navbar-brand {
-    color: #ffffff; /* Color del texto del logo */
-    font-weight: bold; /* Texto en negrita */
-  }
-  
-  .navbar-toggler-icon {
-    color: #ffffff; /* Color del icono del botón de alternar */
-  }
-  
-  /* Estilos personalizados para el menú desplegable */
-  .offcanvas-header {
-    background-color: #343a40; /* Color de fondo del encabezado del menú desplegable */
-  }
-  
-  .offcanvas-title {
-    color: #ffffff; /* Color del texto del encabezado del menú desplegable */
-  }
-  
-  .offcanvas-body {
-    background-color: #343a40; /* Color de fondo del cuerpo del menú desplegable */
-  }
-  
-  .navbar-nav .nav-link {
-    color: #ffffff; /* Color del texto de los enlaces del menú */
-  }
-  
-  .navbar-nav .nav-link.active {
-    font-weight: bold; /* Enlace activo en negrita */
-  }
-  
-  .nav-item.dropdown .dropdown-menu {
-    background-color: #343a40; /* Color de fondo del menú desplegable */
-  }
-  
-  .dropdown-divider {
-    background-color: #ffffff; /* Color de la línea divisoria */
-  }
-  
-  /* Estilos para el formulario de búsqueda */
-  .navbar form {
-    margin-top: 10px; /* Margen superior del formulario */
-  }
-  
-  .navbar form input {
-    background-color: #ffffff; /* Color de fondo del campo de búsqueda */
-    color: #343a40; /* Color del texto del campo de búsqueda */
-  }
-  
-  .navbar form button {
-    background-color: #28a745; /* Color de fondo del botón de búsqueda */
-    color: #ffffff; /* Color del texto del botón de búsqueda */
-  }
-  
+footer img{
+  width: 20%;
+    
+}
+footer ul {
+  list-style: none;
+  padding: 0%;
+  margin: 0%;
+}
+
+footer ul li {
+ 
+  margin-right: 1px;
+}
