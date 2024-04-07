@@ -264,10 +264,14 @@ section {
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto
+  auto auto;
   gap: 10px;
   background-color: #2196F3;
-  padding: 20%;
+  padding-top 10%;
+  padding-bottom 5%;
+  padding-left 5%;
+
 }
 
 .grid-container > div {
