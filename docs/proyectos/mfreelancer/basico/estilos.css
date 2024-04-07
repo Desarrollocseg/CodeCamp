@@ -1,0 +1,29 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+/* Estilos específicos para cada sección */
+#portada {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+#servicios {
+    background-color: #e6f7ff;
+}
+
+#quienes-somos {
+    background-color: #f0f0f0;
+}
+
+#contacto {
+    background-color: #e0f2f1;
+}
