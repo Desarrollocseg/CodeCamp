@@ -256,7 +256,7 @@ section {
 
 #contacto{
     flex:content;
-
+    font-size:10%;
     background-color:white;
     text-align: center;
     
@@ -433,7 +433,7 @@ a:hover {
         }
     }
 /* Estilos para la barra de navegación en pantalla pequeña */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 510px) {
     #menu-items {
         display: none; /* Ocultar los elementos de la barra de navegación en pantalla pequeña */
     }
