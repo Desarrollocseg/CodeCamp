@@ -267,7 +267,7 @@ section {
   grid-template-columns: auto auto auto auto;
   gap: 10px;
   background-color: #2196F3;
-  padding: 10px;
+  padding: 50%;
 }
 
 .grid-container > div {
