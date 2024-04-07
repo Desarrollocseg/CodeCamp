@@ -256,7 +256,7 @@ section {
 
 #contacto{
     flex:content;
-    font-size:30px;
+    font-size:large;
     background-color:white;
     text-align: center;
     
@@ -279,6 +279,7 @@ section {
   border: 1px solid black;
   text-align: center;
   font-size: 30px;
+  flex:content;
 }
 
 /* Estilos específicos */
