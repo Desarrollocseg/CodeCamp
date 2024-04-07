@@ -268,9 +268,7 @@ section {
   auto auto;
   gap: 10px;
   background-color: white;
-  padding-top 10%;
-  padding-bottom 5%;
-  padding-left 5%;
+  padding: 5% ;
 
 }
 
