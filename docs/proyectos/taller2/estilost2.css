@@ -256,7 +256,7 @@ section {
 
 #contacto{
     flex:content;
-    font-size:large;
+    font-size:15px;
     background-color:white;
     text-align: center;
     
@@ -274,9 +274,9 @@ section {
 
 .grid-container > div {
   background-color:#ffe0e0e0;
-  border: 1px solid black;
-  text-align: center;
-  font-size: 30px;
+  border:none;
+  text-align: justify;
+  font-size: 20px;
   flex:content;
 }
 
