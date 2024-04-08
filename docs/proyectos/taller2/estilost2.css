@@ -290,6 +290,9 @@ section {
 }
 
 /*estilos tarjetas*/
+
+
+
 .grid-container {
     display:flex;
     grid-template-columns: auto; /* Solo una columna */
@@ -419,6 +422,7 @@ a:hover {
 
 /* Estilos para pantallas pequeñas */
 @media only screen and (max-width: 510px) {
+   
     /* Estilos para nav */
     #navbar {
         padding-left: 0%; /* Reduce el padding en pantallas pequeñas */
@@ -439,13 +443,6 @@ a:hover {
         font-size: x-large;
     }
 
-   /* #menu-items {
-        display: none; /* Ocultar los elementos de la barra de navegación en pantalla pequeña 
-    }
-
-    #menu-toggle {
-        display: block; /* Mostrar el menú de hamburguesa en pantalla pequeña 
-    }*/
 
     
         /* Añade estilos para el botón de hamburguesa */
@@ -457,5 +454,19 @@ a:hover {
         #menu-items {
             display: none;
         }
-    
-}
+    }
+
+    /*tarjetas Estilos para pantallas pequeñas */
+@media only screen and (max-width: 510px) {
+    #hide{
+      display: none; /* Oculta el contenedor en pantallas pequeñas */
+    }
+  }
+  
+  /* Estilos para pantallas medianas (tablets) y superiores */
+  @media only screen and (min-width: 601px) {
+    #hide{
+      display: block; /* Muestra el contenedor en pantallas de tamaño tablet en adelante */
+    }
+  }
+

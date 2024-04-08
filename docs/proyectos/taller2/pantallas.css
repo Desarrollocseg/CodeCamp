@@ -17,6 +17,24 @@
 }
 
 
+/*targetas
+/* Estilos para pantallas pequeñas */
+@media only screen and (max-width: 600px) {
+    .grid-container {
+      display: none; /* Oculta el contenedor en pantallas pequeñas */
+    }
+  }
+  
+  /* Estilos para pantallas medianas (tablets) y superiores */
+  @media only screen and (min-width: 601px) {
+    .grid-container {
+      display: block; /* Muestra el contenedor en pantallas de tamaño tablet en adelante */
+    }
+  }
+
+
+
+
 
 
 
@@ -100,3 +118,15 @@ header {
     .column2 {
         flex: 100%; /* Cambia el ancho de las columnas a 100% para que se apilen en dispositivos pequeños */
     }
+
+
+
+
+
+
+
+
+
+
+
+    
