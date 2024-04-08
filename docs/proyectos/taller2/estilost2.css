@@ -11,7 +11,7 @@ header {
     display:flex ;
     flex-wrap: wrap;
 
-    background-color: rgb(2, 88, 2);
+    background-color: white;
     font-size: 36px;
     text-align: center;
     padding-bottom: 0.5%;
@@ -20,6 +20,17 @@ header {
 header h1 {
 
     color: #fff5f5f5;
+    padding: 10px; /* Espacio alrededor del texto */
+    width: fit-content; /* Ajusta el ancho del contenedor al contenido */
+    background-color: black;
+    
+}
+header h2 {
+
+    color: #000000f5;
+    border: 2px solid black; /* Ancho, tipo y color del borde */
+    padding: 10px; /* Espacio alrededor del texto */
+    width: fit-content; /* Ajusta el ancho del contenedor al contenido */
 }
 /* Estilos para el logotipo */
 
@@ -43,15 +54,20 @@ header h1 {
     
 }
 #head2 h1{
-
-    
 font-size:xx-large;
 }
 
-img {
+#head1 > img {
     max-width: 200px; /* Ajusta el ancho máximo */
     height: auto; /* Mantiene la proporción de aspecto */
+    border: 2px solid black; /* Ancho, tipo y color del borde */
+    padding: 10px; /* Espacio alrededor del texto */
+    width: fit-content; /* Ajusta el ancho del contenedor al contenido */
+
 }
+img {
+    max-width: 200px; /* Ajusta el ancho máximo */
+    height: auto; /* Mantiene la proporción de aspecto */}
 
 /* Estilos para nav */
 
@@ -184,6 +200,7 @@ align-items: center;
 #principal{
     display: flex;
     flex-wrap: wrap;
+    background-color: lightsteelblue;
   
 }
 .container {
@@ -217,8 +234,9 @@ align-items: center;
 #servicios {
     flex:content;
     display: none;
-    background-color: #cbeed6;
+    background-color: lightsteelblue;
     transition: opacity 0.3s ease; /* Agrega una transición suave para la propiedad de opacidad */
+    border-radius: 10%;
    
 
 }
@@ -229,7 +247,15 @@ align-items: center;
     font-size: x-large;
 }
 #servicios a{
-    color:rgb(80, 70, 70);
+    color:white;
+    padding-bottom: 3%;
+
+}
+#servicios a:hover{
+    color:white;
+    text-decoration:none;
+    opacity: 80%;
+
 
 }
 #servicios h2{
@@ -256,7 +282,7 @@ section {
 
 #contacto{
     flex:content;
-    font-size:15px;
+    font-size:medium;
     background-color:white;
     text-align: center;
     
@@ -269,7 +295,7 @@ section {
     /*gap: 5px;*/
     background-color: white;
     padding-left: 5%;
-    padding-top: 10%;
+   /* padding-top: 1%;*/
     padding-right: 5%;
     padding-bottom: 5%;
   }
@@ -280,7 +306,7 @@ section {
     font-size: medium;
     display: grid;
     width: 50%;
-    padding: 5%;
+    margin: 5%;
    
 
   }
@@ -305,7 +331,7 @@ section {
   .col-tex {
     background-color:white;
     width: 100%;
-   /* padding: 20px;  Añade un relleno para separar el texto del borde */
+   padding: 10px;   /*Añade un relleno para separar el texto del borde */
   }
   
   .col-tex > p {
