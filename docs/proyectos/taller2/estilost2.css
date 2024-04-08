@@ -262,6 +262,7 @@ section {
     
 }
 
+/*estilos tarjetas*/
 .grid-container {
     display:flex;
     grid-template-columns: auto; /* Solo una columna */
@@ -311,7 +312,7 @@ section {
     text-align: justify; /* Alinea el texto justificado */
     margin: 10px;
   }
-  
+  /*finde los estilos de las tarjetas*/
 /* Estilos específicos */
 h1 {
     
