@@ -97,7 +97,8 @@ nav ul {
 
 nav ul li {
    /* display: inline;*/
-    padding-left: 10%;
+   
+   padding-left: 10%;
 
 
 }
@@ -105,8 +106,7 @@ nav ul li {
 nav a {
     color: white;
     text-decoration: none;
-     font-size: 16px;
-    
+    font-size: 16px;
 }
 nav a:hover {
     text-decoration:none;
@@ -114,6 +114,7 @@ nav a:hover {
     margin: 1%;
     padding: 3%;
     opacity: 80%;
+    background-image: ;
 }
 
 /* Estilos para el logotipo en la barra de navegación */
@@ -139,6 +140,7 @@ nav a:hover {
     padding: 0;
     display:flex;
    
+   
 }
 #menu-items ul {
     
@@ -155,6 +157,7 @@ nav a:hover {
     text-decoration: none;
     font-size: 16px;
 }
+
 
 #logo-navbar-image{
     border-radius: 50%;
