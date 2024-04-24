@@ -6,6 +6,8 @@ body {
     background-color: #fffffffa;
 }
 
+/*estilos cabecera*/
+
 header {
 
     display:flex ;
@@ -32,7 +34,7 @@ header h2 {
     padding: 10px; /* Espacio alrededor del texto */
     width: fit-content; /* Ajusta el ancho del contenedor al contenido */
 }
-/* Estilos para el logotipo */
+    /* Estilos para el logotipo */
 
 #logo{
 
@@ -65,11 +67,13 @@ font-size:xx-large;
     width: fit-content; /* Ajusta el ancho del contenedor al contenido */
 
 }
+/*estilos cabecera*/
+
 img {
     max-width: 200px; /* Ajusta el ancho máximo */
     height: auto; /* Mantiene la proporción de aspecto */}
 
-/* Estilos para nav */
+/* Estilos para la barra de navegacion */
 
 nav{
     position: fixed;
@@ -116,7 +120,7 @@ nav a:hover {
     opacity: 80%;
 }
 
-/* Estilos para el logotipo en la barra de navegación */
+    /* Estilos para el logotipo en la barra de navegación */
 #logo-navbar{
    
     display: none; /* Oculta el logotipo en la barra de navegación por defecto */
@@ -141,7 +145,7 @@ nav a:hover {
    
    
 }
-/*#navbar button{
+    /*#navbar button{
 
     background-image: url("BTN/NORMAL.png" );
     height:20%;
@@ -198,7 +202,7 @@ align-items: center;
 
 }
 
-/* Estilos para la barra de navegación fija */
+    /* Estilos para la barra de navegación fija */
 .sticky {
 
     position:fixed;
@@ -207,7 +211,7 @@ align-items: center;
     z-index: 1000;
 }
 
-/* Estilos para el menú de hamburguesa */
+    /* Estilos para el menú de hamburguesa */
 #menu-toggle {
     display: none; /* Ocultar el menú de hamburguesa por defecto */
     cursor: pointer;
@@ -219,8 +223,9 @@ align-items: center;
     background-color: white;
     margin: 5px 0;
 }
-
-/* Estilos */
+/* fin de los estilos barra de navegaciopn*/
+    
+  /* Estilos */
 
 #principal{
     display: flex;
@@ -265,10 +270,7 @@ align-items: center;
     border-top-left-radius: 50%;
     border-bottom-right-radius: 50%;
     box-shadow: 12px 15px 2px 1px  darkolivegreen;
-    ;
-
-   
-
+    
 }
 #servicios ul li{
     text-align: center;
@@ -285,8 +287,6 @@ align-items: center;
     color:white;
     text-decoration:none;
     opacity: 80%;
-    
-
 
 }
 #servicios h2{
@@ -305,7 +305,6 @@ align-items: center;
     opacity: 1; /* Muestra el elemento con una opacidad completa */
 }
 
-
 section {
     padding:0%;
     display: grid;
@@ -320,10 +319,9 @@ section {
     text-align: center;
     
 }
+/*estilos*/
 
 /*estilos tarjetas*/
-
-
 
 .grid-container {
     
@@ -386,7 +384,8 @@ section {
     padding: 5%;
   }
   /*finde los estilos de las tarjetas*/
-/* Estilos específicos */
+
+  /* Estilos específicos 
 h1 {
     
     font-size: 36px;
@@ -407,7 +406,8 @@ ul {
 
 article {
     padding: 5px;
-}
+}*/
+
 /*footer*/
 footer {
     display:flex ;
@@ -448,9 +448,10 @@ footer ul li {
    
     margin-right: 1px;
 }
+/*footer*/
 
 
-/* Estilos de enlaces */
+/* Estilos de enlaces 
 a {
     color: black;
     text-decoration: none;
@@ -459,7 +460,7 @@ a {
 a:hover {
     text-decoration:none;
     
-}
+}*/
 
 
 
@@ -499,14 +500,14 @@ a:hover {
         }
     }
 
-    /*tarjetas Estilos para pantallas pequeñas */
+    /*tarjetas*/
 @media only screen and (max-width: 510px) {
     #hide{
       display: none; /* Oculta el contenedor en pantallas pequeñas */
     }
   }
   
-  /* Estilos para pantallas medianas (tablets) y superiores */
+  /* Estilos de las tarjetas para pantallas medianas (tablets) y superiores */
   @media only screen and (min-width: 601px) {
     #hide{
       display: block; /* Muestra el contenedor en pantallas de tamaño tablet en adelante */

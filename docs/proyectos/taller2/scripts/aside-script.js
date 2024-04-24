@@ -6,9 +6,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Agrega un evento de clic al enlace de "Servicios"
     serviciosLink.addEventListener("click", function(event) {
-       // event.preventDefault(); // Evita que el enlace se comporte como un enlace normal
+        event.preventDefault(); // Evita que el enlace se comporte como un enlace normal
 
-        // Alterna la clase 'visible' en el elemento <aside>
+        // Alterna la clase 'visible' en el elemento 
         servicios.classList.toggle("visible");
     });
 });
