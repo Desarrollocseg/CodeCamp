@@ -6,6 +6,38 @@ body {
     background-color: #fffffffa;
 }
 
+     /*Estilos de enlaces*/ 
+ a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration:none;
+    
+}
+
+/*finde los estilos de las tarjetas*/
+
+  /* Estilos específicos 
+h1 {
+    
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 20px;
+}*/
+
 /*estilos cabecera*/
 
 header {
@@ -383,27 +415,8 @@ section {
     margin:10%;
     padding: 5%;
   }
-  /*finde los estilos de las tarjetas*/
-
-  /* Estilos específicos 
-h1 {
-    
-    font-size: 36px;
-}
-
-h2 {
-    font-size: 24px;
-}
-
-h3 {
-    font-size: 20px;
-}
-
-ul {
-    list-style: disc;
-    padding-left: 20px;
-}
-
+  
+/*
 article {
     padding: 5px;
 }*/
@@ -451,16 +464,6 @@ footer ul li {
 /*footer*/
 
 
- Estilos de enlaces 
-a {
-    color: black;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration:none;
-    
-}
 
 
 
