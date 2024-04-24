@@ -7,7 +7,7 @@ function scrollFunction() {
     var logo = document.getElementById("logo");
     var sticky = navbar.offsetTop;
 
-    if (window.pageYOffset === window.scrollY > sticky) {
+    if (window.pageYOffset > sticky) {
         navbar.classList.add("sticky");
         logoNavbar.style.display = "block";
         logo.style.display = "none";
