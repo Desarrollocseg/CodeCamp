@@ -480,7 +480,7 @@ footer ul li {
    
     /* Estilos para nav */
     #navbar {
-        padding-left: 0%; /* Reduce el padding en pantallas pequeñas */
+        padding-left: 5%; /* Reduce el padding en pantallas pequeñas */
         flex-direction: row; /* Cambia la dirección del flexbox a columna */
         flex: 100%;        
 
@@ -488,13 +488,14 @@ footer ul li {
 
     #navbar ul {
         grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); /* Ajusta el tamaño de los elementos de la lista */
-        grid-gap: 5px; /* Reduce el espacio entre elementos de la lista */
+        grid-gap:30%; /* Reduce el espacio entre elementos de la lista */
         flex: 100%;        
 
     }
 
     #navbar a {
-        padding: 5px; /* Aumenta el espacio alrededor de los enlaces */
+        padding: 1%; /* Aumenta el espacio alrededor de los enlaces */
+        margin-top: 5%;
         font-size: x-large;
     }
 
@@ -503,6 +504,7 @@ footer ul li {
         /* Añade estilos para el botón de hamburguesa */
         #menu-toggle {
             display: block; /* Mostrar el botón de hamburguesa */
+           
         }
     
         /* Oculta los elementos de la barra de navegación en pantalla pequeña */
@@ -510,7 +512,8 @@ footer ul li {
             display: none;
         }
     }
-
+    
+ 
     /*tarjetas*/
 @media only screen and (max-width: 510px) {
     #hide{
