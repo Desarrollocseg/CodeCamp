@@ -114,7 +114,6 @@ nav a:hover {
     margin: 1%;
     padding: 3%;
     opacity: 80%;
-    background-image: ;
 }
 
 /* Estilos para el logotipo en la barra de navegación */
@@ -142,6 +141,28 @@ nav a:hover {
    
    
 }
+/*#navbar button{
+
+    background-image: url("BTN/NORMAL.png" );
+    height:20%;
+    box-shadow:
+      inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+      inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+      background-color: darkolivegreen;
+}
+#navbar button:hover {
+    background-image: url("BTN/SOBRE.png" );
+    box-shadow:
+      inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+      inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+#navbar button:active {
+    background-image: url("BTN/PRESIONADO.png" );
+    box-shadow:
+      inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+      inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+  }
+*/  
 #menu-items ul {
     
     margin: 0;
@@ -238,9 +259,14 @@ align-items: center;
 #servicios {
     flex:content;
     display: none;
-    background-color: lightsteelblue;
+    background-color: #809474fa;
+
     transition: opacity 0.3s ease; /* Agrega una transición suave para la propiedad de opacidad */
-    border-radius: 10%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    box-shadow: 12px 15px 2px 1px  darkolivegreen;
+    ;
+
    
 
 }
@@ -251,7 +277,7 @@ align-items: center;
     font-size: x-large;
 }
 #servicios a{
-    color:white;
+    color: azure;
     padding-bottom: 3%;
 
 }
@@ -259,10 +285,13 @@ align-items: center;
     color:white;
     text-decoration:none;
     opacity: 80%;
+    
 
 
 }
 #servicios h2{
+    display:block;
+
     font-size:xx-large;
     text-align: center;
    
@@ -297,34 +326,40 @@ section {
 
 
 .grid-container {
+    
     display:flex;
-    grid-template-columns: auto; /* Solo una columna */
-    /*gap: 5px;*/
-    background-color: white;
-    padding-left: 5%;
-   /* padding-top: 1%;*/
-    padding-right: 5%;
-    padding-bottom: 5%;
+    grid-template-columns:auto;
+    gap: 5%;
+    background-color:transparent;
+    column-count: 1;
+    justify-content: center; /* Centra horizontalmente */
+
   }
   
   .tarjeta {
-    background-color: white;
+    background-color:none;
     border: none;
     font-size: medium;
     display: grid;
-    width: 50%;
-    margin: 5%;
-   
+    width: 100%;
+    margin: 10%;
+    box-shadow: 12px 12px 2px 1px darkolivegreen;
+    border-top-right-radius: 5%;
+
+   /* padding:5%;*/
 
   }
   
   .col-img {
-    background-color:white;
+    background-color: #809474fa;
     width: 100%;
-    padding: 5%;
+    padding-top: 5%;
+    padding-bottom: 3%;
     display: flex;
     justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
+    /*align-items: center; /* Centra verticalmente */
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
   }
 .col-img img {
     width: 200px;
@@ -337,13 +372,18 @@ section {
   
   .col-tex {
     background-color:white;
-    width: 100%;
-   padding: 10px;   /*Añade un relleno para separar el texto del borde */
+    width: 20em;
+       padding: 5px;   /*Añade un relleno para separar el texto del borde */
+   max-height: 100%;
+   max-width: 100%; /* La imagen ocupará todo el ancho de su contenedor */
+   justify-content: center; /* Centra horizontalmente */
+
   }
   
-  .col-tex > p {
-    text-align: justify; /* Alinea el texto justificado */
-    margin: 10px;
+  .col-tex > p > h2 {
+    /*text-align:justify; /* Alinea el texto justificado */
+    margin:10%;
+    padding: 5%;
   }
   /*finde los estilos de las tarjetas*/
 /* Estilos específicos */

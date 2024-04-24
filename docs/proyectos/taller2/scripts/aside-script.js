@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Selecciona el enlace de "Servicios" en la barra de navegación
     var serviciosLink = document.querySelector("nav a[href='#servicios']");
     // Selecciona el elemento que contiene los servicios
-    var servicios = document.getElementById("servicios");
+    var servicios = document.getElementById("conserv");
 
     // Agrega un evento de clic al enlace de "Servicios"
     serviciosLink.addEventListener("click", function(event) {
