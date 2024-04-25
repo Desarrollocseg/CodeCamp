@@ -98,14 +98,33 @@
 
     <section id="contacto">
         <article>
-        <h2>Contacto</h2>
+            <h2>Contacto</h2>
+
         <p>Contáctanos para obtener más información:</p>
+        <!-- formulario -->
+        <button id="toggleFormBtn" type="button">Escribenos</button>
+
+    <section id="formulariocontacto">
+        <form id="contactform" action="https://formspree.io/f/xrgnoero" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
         <address>
             Correo Electrónico: <a href="mailto:5566835+MISTICKCRUZ@users.noreply.github.com.com">MISTICKCRUZ</a><br>
             Teléfono: <a href="tel:+1234567890"></a>
         </address>
+        
     </article>
     </section>
+    
     </div>
 </div>
  
@@ -179,7 +198,8 @@
     <!--fin del pie de pagina -->
 
     <!--scripts-->
-
+    
+<script src="scripts/formulario.js"></script>
 <script src="scripts/aside-script.js"></script>
 <script src="scripts/navbar-script.js"></script>
  <!--finde los scripts-->

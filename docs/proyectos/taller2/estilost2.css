@@ -356,8 +356,23 @@ section {
     font-size:medium;
     background-color:white;
     text-align: center;
-    margin-top: 10%;
-    
+    margin-top: 10%; 
+}
+#formulariocontacto{
+    background-color: rgb(207, 205, 205) ;
+    padding: 10%;
+    gap: 10%;
+    display:none;
+    transition: opacity 0.3s ease; /* Agrega una transición suave para la propiedad de opacidad */
+    box-shadow: 0px 5px 10px 1px;
+    margin: 5%;
+}
+#toggleFormBtn{
+    background-color: green;
+    width: 20%;
+    padding: 1%;
+    margin: ;
+    text-decoration-color: azure;
 }
 /*estilos*/
 
