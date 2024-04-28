@@ -356,7 +356,7 @@ section {
     font-size:medium;
     background-color:white;
     text-align: center;
-    margin-top: 10%; 
+    margin-bottom:5%; 
 }
 #formulariocontacto{
     background-color: rgb(207, 205, 205) ;
@@ -371,9 +371,13 @@ section {
     background-color: green;
     width: 20%;
     padding: 1%;
-    margin: ;
+    margin:20% ;
     text-decoration-color: azure;
+    font-size: larger;
 }
+
+
+
 /*estilos*/
 
 /*estilos tarjetas*/
@@ -443,6 +447,8 @@ section {
 article {
     padding: 5px;
 }*/
+
+
 
 /*footer*/
 footer {
