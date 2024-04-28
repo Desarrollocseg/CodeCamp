@@ -311,17 +311,14 @@ align-items: center;
     flex:content;
     /*display: none;*/
     margin-top: 10px;
-    background-color: #809474fa;
+    margin-bottom: 10px;
+    background-color: rgb(207, 205, 205);
     transition: opacity 0.3s ease; /* Agrega una transición suave para la propiedad de opacidad */
-    border-top-left-radius: 5%;
-    border-bottom-right-radius: 10%;
-    border: 1px solid black; /* Ancho, tipo y color del borde */
     box-shadow: 5px 5px 10px 1px  darkolivegreen;
     
 }
 #servicios ul li{
     text-align: center;
-    text-decoration:none;
     display:block;
     font-size: x-large;
 }
@@ -370,7 +367,7 @@ section {
     padding: 10%;
     gap: 10%;
     transition: opacity 0.3s ease; /* Agrega una transición suave para la propiedad de opacidad */
-    box-shadow: 0px 5px 10px 1px;
+    box-shadow: 0px 5px 10px 1px darkolivegreen; 
     margin: 5%;
 }
 #contactform button{
