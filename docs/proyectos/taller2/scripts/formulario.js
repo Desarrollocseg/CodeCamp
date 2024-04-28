@@ -1,11 +1,4 @@
-document.getElementById('toggleFormBtn').addEventListener('click', function() {
-    var formulario = document.getElementById('formulariocontacto');
-    if (formulario.style.display === 'none') {
-        formulario.style.display = 'block';
-    } else {
-        formulario.style.display = 'none';
-    }
-});
+
 
 
 // Manejar el envío del formulario de contacto
