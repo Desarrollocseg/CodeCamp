@@ -381,7 +381,7 @@ section {
 
 .grid-container {
     
-    display:inline-block;
+    display:flex;
     grid-template-columns:auto;
     gap: 1%;
     background-color:transparent;
@@ -436,10 +436,50 @@ section {
   }
   
   .col-tex > p > h2 {
-    /*text-align:justify; /* Alinea el texto justificado */
+    text-align:right; /* Alinea el texto justificado */
     margin:10%;
     padding: 5%;
+    font-size: small;
+
+
   }
+
+  /*contador de paginas*/
+
+  #content {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    width: 80%;
+    text-align: left;
+}
+
+#pagination {
+    display: flex;
+    align-items: center;
+}
+
+#pagination button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+#pageNumbers {
+    display: flex;
+}
+
+.page-number {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.page-number.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+  /*fin contador de paginas*/
+
   
 /*
 article {
