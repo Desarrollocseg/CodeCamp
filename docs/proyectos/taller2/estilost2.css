@@ -381,22 +381,23 @@ section {
 
 .grid-container {
     
-    display:flex;
+    display:inline-block;
     grid-template-columns:auto;
-    gap: 5%;
+    gap: 1%;
     background-color:transparent;
     column-count: 1;
     justify-content: center; /* Centra horizontalmente */
-
+    
   }
+  
   
   .tarjeta {
     background-color:none;
     border: none;
     font-size: medium;
-    display: grid;
+    display: block;
     width: 100%;
-    margin: 10%;
+    margin: 5%;
     box-shadow: 5px 5px 10px 1px  darkolivegreen;
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
