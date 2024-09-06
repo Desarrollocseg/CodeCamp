@@ -1,0 +1,40 @@
+/* Estilos para la sección de publicidad */
+aside{
+    
+   
+}
+.ads-section {
+  margin-top: 20px;
+  width: 20%;
+  background-color: lightsalmoon;
+  min-height: 80%;
+  padding-left: 10%;
+}
+
+.ad {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  
+  overflow: hidden;
+}
+
+.ad img {
+  width: 100%;
+  height: auto;
+}
+
+.ad-text {
+  padding: 15px;
+}
+
+.ad-text h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.ad-text p {
+  margin-top: 0;
+  font-size: 14px;
+}

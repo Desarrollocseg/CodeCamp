@@ -1,0 +1,132 @@
+
+/* Estilos para pantallas pequeñas */
+@media only screen and (max-width: 360px) {
+    /* Estilos para nav */
+   
+}
+   
+/* Estilos para la barra de navegación en pantalla pequeña */
+@media screen and (max-width: 510px) {
+    #menu-items {
+        display: none; /* Ocultar los elementos de la barra de navegación en pantalla pequeña */
+    }
+
+    #menu-toggle {
+        display: block; /* Mostrar el menú de hamburguesa en pantalla pequeña */
+    }
+}
+
+
+/*targetas
+/* Estilos para pantallas pequeñas */
+@media only screen and (max-width: 600px) {
+    .grid-container {
+      display: none; /* Oculta el contenedor en pantallas pequeñas */
+    }
+  }
+  
+  /* Estilos para pantallas medianas (tablets) y superiores */
+  @media only screen and (min-width: 601px) {
+    .grid-container {
+      display: block; /* Muestra el contenedor en pantallas de tamaño tablet en adelante */
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos para el contenido */
+ #principal {
+    flex-direction: column; /* Cambia la dirección del flexbox a columna */
+}
+
+#servicios {
+    width: 100%; /* Ajusta el ancho del aside al 100% */
+    min-height: auto; /* Elimina la altura mínima */
+    flex-direction: column; /* Cambia la dirección del flexbox a columna */
+
+}
+/*#servicios article {
+    width: 100%;
+    min-height: 80%;
+}*/
+
+#contacto{
+    flex-direction: column; /* Cambia la dirección del flexbox a columna */
+
+}
+/* #contacto article{
+    width: 100%;
+    min-height: 80%;
+}*/
+
+
+
+
+#footer{
+    flex-direction: row; /* Cambia la dirección del flexbox a columna */
+    flex: 100%;        
+    
+
+}
+#footer1{
+    flex: 100%;        
+    
+}
+#footer2{
+    flex: 100%;  
+}
+#footer3{
+    flex: 100%;        
+    
+}
+
+/* Otros ajustes */
+header {
+    font-size:x-large; /* Reduce el tamaño del texto del encabezado */
+    flex-direction:column; /* Cambia la dirección del flexbox a columna */
+    flex: 100%;
+}
+
+
+
+#head1 {
+    /*width: 30%; /* Ajusta el ancho del logotipo */
+    /*margin-left: 5%; /* Ajusta el margen izquierdo */
+    padding-top:30%;
+    flex: 100%; /* Cambia el ancho de las columnas a 100% para que se apilen en dispositivos pequeños */
+
+}
+
+#head2 {
+    /*width: 70%; /* Ajusta el ancho del encabezado */
+    /*padding-top: 2%; /* Ajusta el relleno superior */
+    flex: 100%; /* Cambia el ancho de las columnas a 100% para que se apilen en dispositivos pequeños */
+
+}
+
+    .column1 {
+        flex: 100%; /* Cambia el ancho de las columnas a 100% para que se apilen en dispositivos pequeños */
+    }
+    .column2 {
+        flex: 100%; /* Cambia el ancho de las columnas a 100% para que se apilen en dispositivos pequeños */
+    }
+
+
+
+
+
+
+
+
+
+
+
+    
