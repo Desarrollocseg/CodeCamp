@@ -10,7 +10,7 @@ function scrollFunction() {
     if (window.pageYOffset > sticky) {
         navbar.classList.add("sticky");
         logoNavbar.style.display = "block";
-        logo.style.display = "none";
+        //logo.style.display = "none";
         logoNavbarImage.src = logo.src; // Copia el src del logo del encabezado al logo de la barra de navegación
     } else {
         navbar.classList.remove("sticky");

@@ -1,0 +1,556 @@
+/* Estilos generales */
+
+body {
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffffffa;
+}
+
+     /*Estilos de enlaces*/ 
+
+ a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration:none;
+    
+}
+
+  
+/*estilos cabecera*/
+
+header {
+
+    display:flex ;
+    flex-wrap: wrap;
+
+    background-color: #ffffffff;
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 0.5%;
+    padding-top: 5%;
+
+    }
+
+header h1 {
+
+    color: red;
+    padding: 10px; /* Espacio alrededor del texto */
+    width: fit-content; /* Ajusta el ancho del contenedor al contenido */
+    background-color: rgb(255, 255, 255);
+    box-shadow:0px 7px 5px 5px gray;
+    }
+    
+header h2 {
+
+    color: #000000f5;
+     /* border: 1px solid black; /* Ancho, tipo y color del borde */
+    padding: 10px; /* Espacio alrededor del texto */
+    width: fit-content; /* Ajusta el ancho del contenedor al contenido */
+}
+
+    /* Estilos para el logotipo */
+
+/*#logo{
+
+    /*border-radius: 50%;*/
+   /* border: 1px solid black; /* Ancho, tipo y color del borde 
+
+}*/
+
+#head1{
+    
+    flex:content;
+    padding-top:3%;/*5px*/
+    padding-left: 5%;
+    width: fit-content; /* Ajusta el ancho del contenedor al contenido */
+    }
+
+#head2{
+
+    flex:content;
+    margin-top: auto;  
+    display:block;  /*añadi*/
+}
+
+#head1 h1{ /*cambie head2 a 1*/
+
+font-size:large;/*xx-large*/
+background-color: black;
+display: inline;/*añadi*/
+
+}
+
+#head2 h1{
+
+    font-size:large;/*xx-large*/
+    background-color: black;
+    display: inline;/*añadi*/
+    }
+
+#head2 h2{
+
+/*texto en degradado*/
+
+font-size: xx-large ; /*60px*/
+background: linear-gradient(to right, #4201f5, #01fd37, #4201f5);
+background-size: cover;
+
+background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+
+#head1 > img {
+    
+    display: inline;/*block*/
+    max-width: 200px; /* Ajusta el ancho máximo */
+    height: auto; /* Mantiene la proporción de aspecto */
+    border: 2px solid black; /* Ancho, tipo y color del borde */
+    padding: 10px; /* Espacio alrededor */
+    width: fit-content; /* Ajusta el ancho del contenedor al contenido */
+  
+}
+/*estilos cabecera*/
+
+img {
+    max-width: 200px; /* Ajusta el ancho máximo */
+    height: auto; /* Mantiene la proporción de aspecto */}
+
+/* Estilos para la barra de navegacion */
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(107, 110, 100);
+    padding-left: 5%;
+    z-index: 1000; /* Asegura que la barra de navegación esté sobre otros elementos*/
+    padding: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+nav ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 10px;
+    justify-content: center;
+    padding-bottom: 10%;
+    padding-top: 1%;
+    margin: 0; /* Elimina el margen predeterminado de la lista */
+}
+
+nav ul li {
+
+   padding-left: 10%;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+nav a:hover {
+    text-decoration:none;
+    background-color:darkolivegreen;
+    margin: 1%;
+    padding: 3%;
+    opacity: 80%;
+}
+
+    /* Estilos para el logotipo en la barra de navegación */
+#logo-navbar{
+   
+    display: none; /* Oculta el logotipo en la barra de navegación por defecto */
+    margin-right: 50px; /* Ajusta el margen derecho para separar el logo del borde */
+}
+
+#navbar {
+    background-color: rgb(107, 110, 100);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar la barra de navegación horizontalmente */
+
+}
+#menu-items {
+    list-style-type: none;
+    margin-left: 10%;
+    margin-right: 20%;
+    padding: 0;
+    display:flex;
+   
+   
+}
+  
+#menu-items ul {
+    
+    margin: 0;
+    padding: 0;
+    display:flex;
+   
+}
+#menu-items li {
+    margin-right: 10px;
+}
+#menu-items li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+#logo-navbar-image{
+    /*border-radius: 50%;*/
+    width: 30%;
+    margin:0%;
+    margin-right: 10px;
+    margin-left: 10%;
+    border-color:rgb(107, 110, 100) ;
+    border-style:solid;
+}
+#logo-navbar ul{
+display: row;
+float: left;
+position:absolute;
+align-items: center;
+
+}
+
+    /* Estilos para la barra de navegación fija */
+.sticky {
+
+    position:fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+    /* Estilos para el menú de hamburguesa */
+#menu-toggle {
+    display: none; /* Ocultar el menú de hamburguesa por defecto */
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+}
+
+.disabled-link {
+    color: gray;
+    pointer-events: none; /* Evita que el enlace sea clickeable */
+    cursor: default; /* Cambia el cursor a predeterminado */
+}
+
+/* fin de los estilos barra de navegaciopn*/
+    
+  /* Estilos */
+
+#principal{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightsteelblue;
+  
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 10%;
+    margin-bottom: 10%;
+}
+.column1 {
+    flex:content;
+   
+}
+.column2 {
+    flex:content;
+   
+}
+
+#blog{
+    background-color:white;
+    
+}
+
+#contenido{
+    flex:content;
+    min-height: 80%;
+    text-align: justify;
+}
+
+
+#servicios {
+    flex:content;
+    /*display: none;*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(207, 205, 205);
+    transition: opacity 0.3s ease; /* Agrega una transición suave para la propiedad de opacidad */
+    box-shadow: 5px 5px 10px 1px  darkolivegreen;
+    
+}
+#servicios ul li{
+    text-align: center;
+    display:block;
+    font-size: x-large;
+}
+#servicios a{
+    color: azure;
+    padding-bottom: 3%;
+
+}
+#servicios a:hover{
+    color:white;
+    text-decoration:none;
+    opacity: 80%;
+
+}
+#servicios h2{
+    display:block;
+    font-size:xx-large;
+    text-align: center;
+   
+    }
+#servicios article{
+    border-style: none;
+}
+
+#servicios.visible {
+    display: block;
+    opacity: 1; /* Muestra el elemento con una opacidad completa */
+}
+
+section {
+    padding:0%;
+    display: grid;
+    grid-gap: 10px;
+}
+
+
+#contacto{
+    flex:content;
+    font-size:medium;
+    background-color:white;
+    text-align: center;
+    margin-bottom:5%; 
+}
+#formulariocontacto{
+    background-color: rgb(207, 205, 205) ;
+    padding: 10%;
+    gap: 10%;
+    transition: opacity 0.3s ease; /* Agrega una transición suave para la propiedad de opacidad */
+    box-shadow: 0px 5px 10px 1px darkolivegreen; 
+    margin: 5%;
+}
+#contactform button{
+    background-color: darkgreen;
+}
+
+
+/*estilos*/
+
+/*estilos tarjetas*/
+
+.grid-container {
+    
+    display:flex;
+    grid-template-columns:auto;
+    gap: 1%;
+    background-color:transparent;
+    column-count: 1;
+    justify-content: center; /* Centra horizontalmente */
+    
+  }
+  
+  
+  .tarjeta {
+    background-color:none;
+    border: none;
+    font-size: medium;
+    display: block;
+    width: 100%;
+    margin: 5%;
+    box-shadow: 5px 5px 10px 1px  ;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+   /* padding:5%;*/
+
+  }
+  
+  .col-img {
+    background-color: #809474fa;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    /*align-items: center; /* Centra verticalmente */
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+  }
+.col-img img {
+    width: 200px;
+    height: 200px;
+  max-width: 100%; /* La imagen ocupará todo el ancho de su contenedor */
+  max-height: 100%; /* La imagen ocupará todo el alto de su contenedor */
+  border-radius: 10%;
+}
+
+  
+  .col-tex {
+    background-color:white;
+    width: 20em;
+       padding: 5px;   /*Añade un relleno para separar el texto del borde */
+   max-height: 100%;
+   max-width: 100%; /* La imagen ocupará todo el ancho de su contenedor */
+   justify-content: center; /* Centra horizontalmente */
+
+  }
+  
+  .col-tex > p > h2 {
+    text-align:right; /* Alinea el texto justificado */
+    margin:10%;
+    padding: 5%;
+    font-size: small;
+
+
+  }
+
+  /*contador de paginas*/
+
+
+
+/*footer*/
+footer {
+    display:flex ;
+    flex-wrap: wrap;
+    flex-direction:row;
+    background-color:rgb(107, 110, 100);
+    color: 809474fa;
+    text-align: center;
+    padding-top: 2%;
+}
+#footer1{
+    padding:auto;
+    flex:content;
+
+
+}
+#footer2{
+    padding:auto;
+    flex:content;
+
+}
+#footer3{
+    padding:auto;
+    flex:content;
+
+}
+footer img{
+    width: auto;
+      
+}
+footer ul {
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+}
+
+footer ul li {
+   
+    margin-right: 1px;
+}
+/*footer*/
+
+
+
+
+
+/* Estilos para pantallas pequeñas */
+@media only screen and (max-width: 510px) {
+   
+    /* Estilos para nav */
+    #navbar {
+        padding-left: 5%; /* Reduce el padding en pantallas pequeñas */
+        flex-direction: row; /* Cambia la dirección del flexbox a columna */
+        flex: 100%;        
+
+    }
+
+    #navbar ul {
+        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); /* Ajusta el tamaño de los elementos de la lista */
+        grid-gap:30%; /* Reduce el espacio entre elementos de la lista */
+        flex: 100%;        
+
+    }
+
+    #navbar a {
+        padding: 1%; /* Aumenta el espacio alrededor de los enlaces */
+        margin-top: 5%;
+        font-size: x-large;
+    }
+
+
+    
+        /* Añade estilos para el botón de hamburguesa */
+        #menu-toggle {
+            display: block; /* Mostrar el botón de hamburguesa */
+           
+        }
+    
+        /* Oculta los elementos de la barra de navegación en pantalla pequeña */
+        #menu-items {
+            display: none;
+        }
+    }
+    
+ 
+    /*tarjetas*/
+
+@media only screen and (max-width: 510px) {
+    #hide{
+      display: none; /* Oculta el contenedor en pantallas pequeñas */
+    }
+    
+    
+    }
+  
+  /* pantallas medianas (tablets) y superiores */
+
+  @media only screen and (min-width: 601px) {
+
+    #hide{
+      display: block; /* oculta el contenedor en pantallas de tamaño tablet en adelante */
+    }
+   
+    
+    }
+
+    /*vista de desarrollocseg*/
+     
+  /* Estilos para pantallas móviles */
+@media only screen and (max-width: 510px) {
+    #hide1 {
+        display: block; /* Muestra el contenedor en pantallas pequeñas */
+    }
+}
+
+/* Estilos para pantallas medianas (tablets) y grandes (escritorios) */
+@media only screen and (min-width: 511px) {
+    #hide1 {
+        display: none; /* Oculta el contenedor en pantallas medianas y grandes */
+    }
+}
