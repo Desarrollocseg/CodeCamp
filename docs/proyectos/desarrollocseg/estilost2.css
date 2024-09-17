@@ -29,9 +29,9 @@ header {
 
    	 background-color: #ffffffff;
    	 font-size: 36px;
-   	 text-align: center;
+   	 /*text-align: center;*/
    	 padding-bottom: 0.5%;
-   	 padding-top: 5%;
+   	 /*padding-top: 5%;*/
 
 }
 
@@ -64,14 +64,14 @@ header h2 {
 #head1{
     
    	 flex:content;
-   	 padding-top:3%;/*5px*/
-   	 padding-left: 5%;
+   	 padding-top:7%;/*5px*/
+   	 padding-left: 8%;
    	 width: fit-content; /* Ajusta el ancho del contenedor al contenido */
 }
 
 #head2{
 	flex:content;
-	margin-top: auto;  
+	margin-top: 70px;  
     	display:block;  /*añadi*/
 }
 
@@ -94,13 +94,13 @@ header h2 {
 
 	/*texto en degradado*/
 
-	font-size: xx-large ; /*60px*/
-	background: linear-gradient(to right, #4201f5, #01fd37, #4201f5);
-	background-size: cover;
-
+	font-size: 32px ; /*60px*/
+	background: linear-gradient(to right, #1E6BA2, #68757B, #1E6BA2);
+	/*background-size: cover;*/
+	/*border: 1px solid black;*/
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
-
+	padding-right: 182px;
 }
 
 #head1 > img {
@@ -117,7 +117,8 @@ header h2 {
 
 img {
     	max-width: 200px; /* Ajusta el ancho máximo */
-    	height: auto; /* Mantiene la proporción de aspecto */}
+    	/*height: auto; /* Mantiene la proporción de aspecto */
+}
 
 /* Estilos para la barra de navegacion */
 
@@ -125,7 +126,7 @@ nav{
     	position: fixed;
     	top: 0;
     	width: 100%;
-    	background-color: rgb(107, 110, 100);
+    	background-color: #FFFFFF;
     	padding-left: 5%;
     	z-index: 1000; /* Asegura que la barra de navegación esté sobre otros elementos*/
     	padding: 20%;
@@ -171,7 +172,7 @@ nav a:hover {
 }
 
 #navbar {
-    	background-color: rgb(107, 110, 100);
+    	background-color: #FFFFFF;
     	padding: 10px;
     	display: flex;
     	align-items: center;
@@ -201,7 +202,7 @@ nav a:hover {
     	margin-right: 10px;
 }
 #menu-items li a {
-    	color: white;
+    	color: #68757B;
     	text-decoration: none;
     	font-size: 16px;
 }
@@ -213,8 +214,8 @@ nav a:hover {
     	margin:0%;
     	margin-right: 10px;
     	margin-left: 10%;
-    	border-color:rgb(107, 110, 100) ;
-    	border-style:solid;
+    	/*border-color:rgb(107, 110, 100) ;*/
+    	/*border-style:solid;*/
 }
 #logo-navbar ul{
 	display: row;
@@ -242,7 +243,7 @@ nav a:hover {
 .bar {
     	width: 25px;
     	height: 3px;
-    	background-color: white;
+    	background-color: #68757B;
     	margin: 5px 0;
 }
 
@@ -263,10 +264,11 @@ nav a:hover {
   
 }
 .container {
-	background-color:#F2F3F4;
+	background-color:#FFFFFF;
     	display: flex;
     	flex-direction: column;
     	padding: 5%;
+	padding-top: 1px;
     
 }
 .column1 {
@@ -288,10 +290,17 @@ nav a:hover {
     	flex:content;
     	min-height: 80%;
     	text-align: justify;
+	margin-bottom: 40px;
+	padding-top: 5px;
 }
 #contenido h2{
-        font-size:50px;
-        color:black;
+        font-size:44px;
+        color:#F4AF00;
+	margin-top:80px;	        
+	border-color: #1E6BA2;
+	border-style: double;
+	text-align: center;
+
 }
 
 #contenido1{
@@ -300,7 +309,7 @@ nav a:hover {
         justify-content: space-between; /* Esto distribuye los elementos de manera uniforme */
         align-items: center; /* Alinea el texto y la imagen verticalmente */   
 	min-height: 100%;
-	background: linear-gradient(to right, #82ABD5,#82ABD5, #f54601);
+	background:linear-gradient(to right, #1E6BA2,#68757B,#68757B);
 	padding:3%;
 	gap: 1%;
 
@@ -317,7 +326,7 @@ nav a:hover {
 
 #contenido1 h3{
 	font-size:large;
-	background-color: yellow;
+	background-color:#FFC42E;
     
 }
 
@@ -334,7 +343,7 @@ nav a:hover {
 #imagen > img{
 	max-width: 100%; /* Ajusta el ancho máximo */
 	height: auto; /* Mantiene la proporción de aspecto */
-  
+  	filter: grayscale(75%);
 }
 
 #contenido2{
@@ -343,10 +352,12 @@ nav a:hover {
         justify-content: space-between; /* Esto distribuye los elementos de manera uniforme */
         align-items: center; /* Alinea el texto y la imagen verticalmente */   
         min-height: 100%;
-        background: linear-gradient(to right, #566573, #AEB6BF,#808B96);
+        background:linear-gradient(to right, #1E6BA2,#68757B,#68757B);
+        box-shadow: 2px 2px 3px 1px #1E6BA2;
+
         padding: 1px 0px 0px 40px;
 	margin-top: 5%;
-	margin-bottom: 4%;
+	/*margin-bottom: 4%;*/
         gap: 1%;
 
 }
@@ -359,7 +370,21 @@ nav a:hover {
         color:white; 
 }
 
+#contenido3 {
 
+  	flex: content;
+  	min-height: 80%;
+  	text-align: center;
+  	/*padding-left:50px;
+	padding-top:10px;
+	padding-right:50px;
+	padding-bottom:10px;*/
+	font-size:xx-large;
+ 	background-color:#1E6BA2;
+	padding: 13px;
+	color: antiquewhite;
+}
+}
 #servicios {
     	flex:content;
     	/*display: none;*/
@@ -434,7 +459,7 @@ section {
 
 .grid-container {
     
-    	display:flex;
+    	display:flex;/*grid*/
     	grid-template-columns:auto;
     	gap: 1%;
     	background-color:transparent;
@@ -442,7 +467,10 @@ section {
     	justify-content: center; /* Centra horizontalmente */
     	padding: 5px;
 	max-width: 100%; /* La imagen ocupará todo el ancho de su contenedor */
-
+	padding-bottom: 31px;
+	padding-top: 64px;
+	padding-right: 30px;
+	padding-left: 30px;
   }
   
   
@@ -467,7 +495,7 @@ section {
         display: block;
         /*width: 100%;*/
         margin: 1%;
-        box-shadow: 2px 2px 3px 1px  gray;
+        box-shadow: 2px 2px 3px 1px gray;
         border-top-left-radius: 10%;
         border-top-right-radius: 10%;
          /*padding:2%;*/
@@ -492,13 +520,15 @@ section {
         display: flex;
         /*justify-content: center; /* Centra horizontalmente */
         /*align-items: center; /* Centra verticalmente */
-        border-top-left-radius: 10%; 
-        border-top-right-radius: 10%;
+        /*border-top-left-radius: 10%;*/ 
+        /*border-top-right-radius: 10%;*/
+	filter: grayscale(80%);
   }
 
 .col-img img {
-    	width: 333px;
-    	height: 300px;
+ 
+    	width: 214px;
+	height: 214px;
   	max-width: 100%; /* La imagen ocupará todo el ancho de su contenedor */
   	max-height: 100%; /* La imagen ocupará todo el alto de su contenedor */
   	border-top-left-radius: 10%; 
@@ -550,8 +580,8 @@ footer {
     	display:flex ;
     	flex-wrap: wrap;
     	flex-direction:row;
-    	background-color: rgb(107, 110, 100);
-    	color: 809474fa;
+    	background-color:#1E6BA2;
+    	color:white;
     	text-align: center;
     	padding-top: 2%;
 }
@@ -636,6 +666,12 @@ footer ul li {
    	#hide{
       	display: none; /* Oculta el contenedor en pantallas pequeñas */
     }
+.grid-container {
+    
+        display:grid;
+        grid-template-columns:auto;
+        gap: 1%;
+}
     
     
     }
@@ -649,6 +685,7 @@ footer ul li {
     }
    
     
+
     }
 
     /*vista de desarrollocseg*/
@@ -658,6 +695,7 @@ footer ul li {
     	#hide1 {
         display: block; /* Muestra el contenedor en pantallas pequeñas */
     }
+
 }
 
 /* Estilos para pantallas medianas (tablets) y grandes (escritorios) */
