@@ -126,13 +126,13 @@ nav{
     	position: fixed;
     	top: 0;
     	width: 100%;
-    	background-color: #FFFFFF;
-    	padding-left: 5%;
+    /*	background-color: #FFFFFF;
+    	padding-left: 5%;*/
     	z-index: 1000; /* Asegura que la barra de navegación esté sobre otros elementos*/
-    	padding: 20%;
+    /*	padding: 20%;
     	display: flex;
     	align-items: center;
-    	justify-content: space-between;
+    	justify-content: space-between;*/
     
 }
 nav ul {
@@ -681,10 +681,14 @@ footer ul li {
   @media only screen and (min-width: 601px) {
 
     	#hide{
-      	display: block; /* oculta el contenedor en pantallas de tamaño tablet en adelante */
+      	display: block; /* muestra el contenedor en pantallas de tamaño tablet en adelante */
     }
-   
-    
+/*navbar*/
+   #menu-items {
+        display: flex;
+        }
+
+            
 
     }
 
