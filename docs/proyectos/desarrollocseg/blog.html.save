@@ -65,6 +65,9 @@
     <!--fin de la cabecera-->
     </header>
 
+    
+
+
  <main>
 
 <div class="container">
@@ -75,12 +78,7 @@
    <br>
    <br>
         <article id="contenido">
-        <h2>Presentación del blog </h2>
-	<h3>Blog personal de Cesar Cruz</h3>
-	<p>Hola soy Cesar Cruz el objetivo de este blog es desarrollar  publicaciones en forma de artículos sobre tecnología, desarrollo web y 
-	ciberseguridad.</p>
-
-	<h2>Ciberseguridad</h2>
+        <h2></h2>
             <h3>¿Que es una prueba de penetración?  (PENTEST)</h3>
             <p>Es la evaluación de seguridad en un sistema informático o red,el analista de seguridad lleva a cabo diferente métodos y técnicas para resolver con ataques cibernéticos las brechas de seguridad y así identificar vulnerabilidades, explotarlas y solucionarlas para mejorar la capacidad de resistencia en el sistema, ayudando así a la compañía o cliente en la mejoría de su seguridad cibernética. </p>
        
@@ -146,58 +144,6 @@
     Desarrollar un plan estratégico para la gestión de actualizaciones a largo plazo, considerando la obsolescencia de software y hardware.
 </p>
 <p>La gestión efectiva de actualizaciones y parches es crucial para mantener un entorno de TI seguro y resistente contra las amenazas cibernéticas en constante evolución.</p>
-
-</article>
-        <article id="contenido">
-
-        <h2>Desarrollo web</h2>
-</article>
-        <article id="contenido">
-
-	<h2>Tecnologia</h2>
-
-        <h3>Linux: Una Profunda Inmersión en el Sistema Operativo de Código Abierto</h3>
-
-            <p>Linux, el venerable sistema operativo de código abierto, ha sido una fuerza impulsora en el mundo de la tecnología desde su creación>
-
-            <h3> Linux</h3>
-            <p>El origen de Linux se remonta a 1991, cuando Linus Torvalds, un estudiante de informática finlandés, comenzó a trabajar en un nuevo >
-             </p>
-
-             <h3> Arquitectura de Linux</h3>
-             <p>Existen varias metodologías comunes de Penetration Testing, cada una con sus propias técnicas y enfoques específicos:</p>
-             <p>
-                Linux es un sistema operativo basado en UNIX, lo que significa que sigue los principios y estándares establecidos por UNIX. La arqu>
-
-            </p>
-            <h3>Distribuciones de Linux</h3>
-            <p>
-                Una de las características más distintivas de Linux es su naturaleza modular y adaptable. A través de las distribuciones de Linux, >
-
-            </p>
-
-h3>Características de Linux</h3>
-
-            <p>A pesar de sus desafíos, el Penetration Testing ofrece una serie de beneficios significativos para las organizaciones:
-
-                <li>Estabilidad: Linux es conocido por su robustez y estabilidad, lo que lo convierte en una opción popular para servidores y siste>
-                </li>
-                <li>Seguridad: Debido a su naturaleza de código abierto y la comunidad de desarrollo activa, Linux tiende a ser más seguro que los >
-                </li>
-                <li>Flexibilidad: Linux es altamente personalizable y puede adaptarse para satisfacer una amplia gama de necesidades, desde servido>
-                </li>
-                 <li>Software Libre: La mayoría de las distribuciones de Linux se distribuyen bajo licencias de código abierto, lo que significa qu>
-                 </li>
-                 <h3> Evolución del Penetration Testing</h3>
-                 <p>Con el avance de la tecnología y las tácticas de los ciberdelincuentes, el Penetration Testing también ha evolucionado. Las pru>
-
-                 <h3>Impacto de Linux</h3>
-                 <p>El impacto de Linux en la informática moderna es innegable. Desde servidores web y supercomputadoras hasta teléfonos inteligent>
-
-                 <h3>Conclusiones</h3>
-                 <p>Linux es mucho más que un sistema operativo; es un símbolo de la colaboración, la innovación y la libertad en el mundo de la te>
-
-
 </article>
 
 <!--- EDICION POR PUBLICAR 
@@ -331,7 +277,31 @@ Estas medidas son solo ejemplos, y la combinación específica dependerá de la 
     </section>
 </div>
 </div>
-  
+
+
+<!--div class="column2">
+
+        <section id="servicios">
+            <article>
+                <h2>Nuestros Servicios</h2>
+                <ul>
+                    <li><a href="#servicios">Consultoría de Seguridad</a></li>
+                    <li><a href="#servicios">Pruebas de Penetración</a></li>
+                    <li><a href="https://mistickcruz.github.io/CodeCamp/taller2/blog.html">Educación en Ciberseguridad</a></li>
+           </ul>
+            </article>
+        </section>
+    
+        <section id="contacto">
+            <article>
+            <h2>Contacto</h2>
+            <p>Contáctanos para obtener más información:</p>
+            
+        </article>
+        </section>
+            </div>
+        </div-->
+    
      <!--   <div id="content">
              Aquí se cargará el contenido de las páginas 
         </div>
@@ -342,7 +312,7 @@ Estas medidas son solo ejemplos, y la combinación específica dependerá de la 
         </div> -->
     </div>
     
-   <!--tarjetas
+   <!--tarjetas-->
    <div id="hide">
 <div class="grid-container">
     <a href="https://mistickcruz.github.io/CodeCamp/proyectos/taller2/blog/10042024.html">
@@ -387,7 +357,7 @@ Estas medidas son solo ejemplos, y la combinación específica dependerá de la 
   </div>
  </div>
   
-  fin-tarjetas-->
+  <!--fin-tarjetas-->
 
     </main>
 <!--fin contenido-->

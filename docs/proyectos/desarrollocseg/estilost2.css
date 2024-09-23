@@ -248,7 +248,7 @@ nav a:hover {
 }
 
 .disabled-link {
-    	color: gray;
+    	color: black;
     	pointer-events: none; /* Evita que el enlace sea clickeable */
     	cursor: default; /* Cambia el cursor a predeterminado */
 }
@@ -437,6 +437,33 @@ background-color:#45a049;
 }
 
 
+/*FORMULARIO DE CONTACTO*/
+
+#contacto{
+        flex:content;
+        font-size:medium;
+        background-color:white;
+        text-align: center;
+        margin-bottom:5%; 
+}
+
+
+#formulariocontacto{
+        background-color:#EAF0F2;
+        padding: 10%;
+        gap: 10%;
+        transition: opacity 0.3s ease; /* Agrega una transición suave para la propiedad de opacidad */
+        box-shadow: 0px 5px 10px 1px #68757B; 
+        margin: 5%;
+}
+#contactform button{
+        background-color:#45a049;
+	
+}
+/*FORMULARIO DE CONTACTO*/
+
+
+
 #servicios {
     	flex:content;
     	/*display: none;*/
@@ -485,24 +512,6 @@ section {
 }
 
 
-#contacto{
-    	flex:content;
-    	font-size:medium;
-    	background-color:white;
-    	text-align: center;
-    	margin-bottom:5%; 
-}
-#formulariocontacto{
-    	background-color: rgb(207, 205, 205) ;
-    	padding: 10%;
-    	gap: 10%;
-    	transition: opacity 0.3s ease; /* Agrega una transición suave para la propiedad de opacidad */
-    	box-shadow: 0px 5px 10px 1px darkolivegreen; 
-    	margin: 5%;
-}
-#contactform button{
-    	background-color: darkgreen;
-}
 
 
 /*estilos*/
@@ -623,7 +632,7 @@ section {
 
   }
 
-  /*contador de paginas*/
+ 
 
 
 
